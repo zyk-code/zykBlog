@@ -4,13 +4,13 @@
 export const siteData = {
   "title": "zyk space",
   "description": "",
-  "base": "/zykBlog",
+  "base": "/",
   "headTags": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/zykBlogfavicon.ico"
+        "href": "/favicon.ico"
       }
     ],
     [
@@ -37,8 +37,15 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-2e6b2d69",
       "path": "/",
-      "lastUpdated": "2/25/2023, 4:37:42 PM",
-      "lastUpdatedTimestamp": 1677314262000
+      "lastUpdated": "2/25/2023, 5:33:14 PM",
+      "lastUpdatedTimestamp": 1677317594000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/app/",
+      "relativePath": "app/README.md",
+      "key": "v-1e7fe9b2",
+      "path": "/app/"
     },
     {
       "title": "Esp32读取MPU6050",
@@ -90,6 +97,24 @@ export const siteData = {
       "lastUpdatedTimestamp": 1677314298000
     },
     {
+      "title": "初识pytroch",
+      "frontmatter": {
+        "title": "初识pytroch",
+        "tags": [
+          "pytroch"
+        ],
+        "categories": [
+          "pytroch"
+        ]
+      },
+      "regularPath": "/blogs/pytroch/pytroch.html",
+      "relativePath": "blogs/pytroch/pytroch.md",
+      "key": "v-26ffca18",
+      "path": "/blogs/pytroch/pytroch.html",
+      "lastUpdated": "2/25/2023, 4:38:18 PM",
+      "lastUpdatedTimestamp": 1677314298000
+    },
+    {
       "title": "Vue",
       "frontmatter": {
         "title": "Vue",
@@ -108,22 +133,11 @@ export const siteData = {
       "lastUpdatedTimestamp": 1677314298000
     },
     {
-      "title": "初识pytroch",
-      "frontmatter": {
-        "title": "初识pytroch",
-        "tags": [
-          "pytroch"
-        ],
-        "categories": [
-          "pytroch"
-        ]
-      },
-      "regularPath": "/blogs/pytroch/pytroch.html",
-      "relativePath": "blogs/pytroch/pytroch.md",
-      "key": "v-26ffca18",
-      "path": "/blogs/pytroch/pytroch.html",
-      "lastUpdated": "2/25/2023, 4:38:18 PM",
-      "lastUpdatedTimestamp": 1677314298000
+      "frontmatter": {},
+      "regularPath": "/mm/",
+      "relativePath": "mm/README.md",
+      "key": "v-2a4d008c",
+      "path": "/mm/"
     },
     {
       "frontmatter": {
@@ -182,20 +196,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "vue Tags"
-      },
-      "regularPath": "/tag/vue/",
-      "key": "v-322a45da",
-      "path": "/tag/vue/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "pytroch Tags"
       },
       "regularPath": "/tag/pytroch/",
       "key": "v-0f0ec90c",
       "path": "/tag/pytroch/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "vue Tags"
+      },
+      "regularPath": "/tag/vue/",
+      "key": "v-322a45da",
+      "path": "/tag/vue/"
     },
     {
       "frontmatter": {
@@ -218,23 +232,25 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "web Categories"
-      },
-      "regularPath": "/categories/web/",
-      "key": "v-7f164d79",
-      "path": "/categories/web/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
         "title": "pytroch Categories"
       },
       "regularPath": "/categories/pytroch/",
       "key": "v-957eb100",
       "path": "/categories/pytroch/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "web Categories"
+      },
+      "regularPath": "/categories/web/",
+      "key": "v-7f164d79",
+      "path": "/categories/web/"
     }
   ],
   "themeConfig": {
+    "mode": "light",
+    "modePicker": false,
     "nav": [
       {
         "text": "主页",
@@ -245,6 +261,10 @@ export const siteData = {
         "text": "时间线",
         "link": "/timeline/",
         "icon": "reco-date"
+      },
+      {
+        "text": "app",
+        "link": "/app/"
       },
       {
         "text": "关于",

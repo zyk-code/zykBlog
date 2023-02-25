@@ -21,6 +21,18 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-1e7fe9b2",
+    path: "/app/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1e7fe9b2").then(next)
+    },
+  },
+  {
+    path: "/app/index.html",
+    redirect: "/app/"
+  },
+  {
     name: "v-c4494550",
     path: "/blogs/esp32/mpu6050.html",
     component: GlobalLayout,
@@ -37,6 +49,14 @@ export const routes = [
     },
   },
   {
+    name: "v-26ffca18",
+    path: "/blogs/pytroch/pytroch.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-26ffca18").then(next)
+    },
+  },
+  {
     name: "v-08560cd0",
     path: "/blogs/web/vue.html",
     component: GlobalLayout,
@@ -45,12 +65,16 @@ export const routes = [
     },
   },
   {
-    name: "v-26ffca18",
-    path: "/blogs/pytroch/pytroch.html",
+    name: "v-2a4d008c",
+    path: "/mm/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-26ffca18").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2a4d008c").then(next)
     },
+  },
+  {
+    path: "/mm/index.html",
+    redirect: "/mm/"
   },
   {
     name: "v-b1564aac",
@@ -131,19 +155,6 @@ export const routes = [
     redirect: "/tag/python/"
   },
   {
-    name: "v-322a45da",
-    path: "/tag/vue/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
-    },
-    meta: {"pid":"tags","id":"vue"}
-  },
-  {
-    path: "/tag/vue/index.html",
-    redirect: "/tag/vue/"
-  },
-  {
     name: "v-0f0ec90c",
     path: "/tag/pytroch/",
     component: GlobalLayout,
@@ -155,6 +166,19 @@ export const routes = [
   {
     path: "/tag/pytroch/index.html",
     redirect: "/tag/pytroch/"
+  },
+  {
+    name: "v-322a45da",
+    path: "/tag/vue/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
+    },
+    meta: {"pid":"tags","id":"vue"}
+  },
+  {
+    path: "/tag/vue/index.html",
+    redirect: "/tag/vue/"
   },
   {
     name: "v-166558e8",
@@ -183,19 +207,6 @@ export const routes = [
     redirect: "/categories/python/"
   },
   {
-    name: "v-7f164d79",
-    path: "/categories/web/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-7f164d79").then(next)
-    },
-    meta: {"pid":"categories","id":"web"}
-  },
-  {
-    path: "/categories/web/index.html",
-    redirect: "/categories/web/"
-  },
-  {
     name: "v-957eb100",
     path: "/categories/pytroch/",
     component: GlobalLayout,
@@ -207,6 +218,19 @@ export const routes = [
   {
     path: "/categories/pytroch/index.html",
     redirect: "/categories/pytroch/"
+  },
+  {
+    name: "v-7f164d79",
+    path: "/categories/web/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-7f164d79").then(next)
+    },
+    meta: {"pid":"categories","id":"web"}
+  },
+  {
+    path: "/categories/web/index.html",
+    redirect: "/categories/web/"
   },
   {
     path: '*',

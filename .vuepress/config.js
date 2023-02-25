@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/zykBlog/',
+  // base: '/zykBlog/',  // 打包部署需要选定仓库名
   title: "zyk space",
   description: "",
   dest: "public",
@@ -21,6 +21,10 @@ module.exports = {
   ],
   theme: "reco",
   themeConfig: {
+    mode: 'light', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+    modePicker: false, // 显示模式调节按钮，
+
+    // header设置
     nav: [
       {
         text: "主页",
@@ -33,6 +37,10 @@ module.exports = {
         icon: "reco-date"
       },
       {
+        text: "app",
+        link: "/app/"
+      },
+      {
         text: "关于",
         icon: "reco-message",
         items: [
@@ -40,7 +48,7 @@ module.exports = {
             text: "GitHub",
             link: "https://github.com/recoluan",
             icon: "reco-github"
-          }
+          },
         ]
       }
     ],
@@ -65,7 +73,15 @@ module.exports = {
     author: "zyk",
     authorAvatar: "/user.png",
     // "record": "zyk",
-    startYear: "2023"
+    startYear: "2023",
+
+    // 加密登录页面
+    // keyPage: {
+    //   keys: ['E39DA5D05566A954B91FF2CB17CB1BB7'], // 设置密文 zyk1999
+    //   color: '#42b983', // 登录页动画球的颜色
+    //   lineColor: '#42b983' // 登录页动画线的颜色
+    // },
+
   },
   "markdown": {
     "lineNumbers": true

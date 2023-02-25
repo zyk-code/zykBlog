@@ -24,6 +24,9 @@ isShowTitleInHome: false
 body {
   background-image: url('/background/bg.gif') 
 }
+.navbar{
+  display: relative
+}
 .anchor-down {
   display: block;
   margin: 12rem auto 0;

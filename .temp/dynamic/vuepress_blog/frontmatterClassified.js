@@ -27,20 +27,20 @@ export default {
         "v-6f4ec764"
       ]
     },
-    "vue": {
-      "key": "vue",
-      "scope": "tags",
-      "path": "/tag/vue/",
-      "pageKeys": [
-        "v-08560cd0"
-      ]
-    },
     "pytroch": {
       "key": "pytroch",
       "scope": "tags",
       "path": "/tag/pytroch/",
       "pageKeys": [
         "v-26ffca18"
+      ]
+    },
+    "vue": {
+      "key": "vue",
+      "scope": "tags",
+      "path": "/tag/vue/",
+      "pageKeys": [
+        "v-08560cd0"
       ]
     }
   },
@@ -61,20 +61,20 @@ export default {
         "v-6f4ec764"
       ]
     },
-    "web": {
-      "key": "web",
-      "scope": "categories",
-      "path": "/categories/web/",
-      "pageKeys": [
-        "v-08560cd0"
-      ]
-    },
     "pytroch": {
       "key": "pytroch",
       "scope": "categories",
       "path": "/categories/pytroch/",
       "pageKeys": [
         "v-26ffca18"
+      ]
+    },
+    "web": {
+      "key": "web",
+      "scope": "categories",
+      "path": "/categories/web/",
+      "pageKeys": [
+        "v-08560cd0"
       ]
     }
   },
