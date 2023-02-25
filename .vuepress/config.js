@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/zykBlog'
+  base: '/zykBlog',
   title: "zyk space",
   description: "",
   dest: "public",
