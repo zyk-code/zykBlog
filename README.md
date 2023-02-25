@@ -18,13 +18,11 @@ bgImageStyle: {
 isShowTitleInHome: false
 # actionText: Guide
 # actionLink: /views/other/guide
-
 ---
-
 <style>
 /*整个背景 和 下拉动画*/ 
 body {
-  background-image: url('/bg.gif') 
+  background-image: url('/background/bg.gif') 
 }
 .anchor-down {
   display: block;
@@ -93,5 +91,3 @@ export default {
   }
 }
 </script>
-
-

@@ -21,14 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-6f4ec764",
-    path: "/blogs/oencv/opncv-python.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6f4ec764").then(next)
-    },
-  },
-  {
     name: "v-c4494550",
     path: "/blogs/esp32/mpu6050.html",
     component: GlobalLayout,
@@ -37,11 +29,11 @@ export const routes = [
     },
   },
   {
-    name: "v-26ffca18",
-    path: "/blogs/pytroch/pytroch.html",
+    name: "v-6f4ec764",
+    path: "/blogs/oencv/opncv-python.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-26ffca18").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6f4ec764").then(next)
     },
   },
   {
@@ -50,6 +42,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-08560cd0").then(next)
+    },
+  },
+  {
+    name: "v-26ffca18",
+    path: "/blogs/pytroch/pytroch.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-26ffca18").then(next)
     },
   },
   {
@@ -92,6 +92,19 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
+    name: "v-8ae32fd0",
+    path: "/tag/esp32/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-8ae32fd0").then(next)
+    },
+    meta: {"pid":"tags","id":"esp32"}
+  },
+  {
+    path: "/tag/esp32/index.html",
+    redirect: "/tag/esp32/"
+  },
+  {
     name: "v-bac21cb0",
     path: "/tag/opencv/",
     component: GlobalLayout,
@@ -118,17 +131,17 @@ export const routes = [
     redirect: "/tag/python/"
   },
   {
-    name: "v-8ae32fd0",
-    path: "/tag/esp32/",
+    name: "v-322a45da",
+    path: "/tag/vue/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-8ae32fd0").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
     },
-    meta: {"pid":"tags","id":"esp32"}
+    meta: {"pid":"tags","id":"vue"}
   },
   {
-    path: "/tag/esp32/index.html",
-    redirect: "/tag/esp32/"
+    path: "/tag/vue/index.html",
+    redirect: "/tag/vue/"
   },
   {
     name: "v-0f0ec90c",
@@ -144,17 +157,17 @@ export const routes = [
     redirect: "/tag/pytroch/"
   },
   {
-    name: "v-322a45da",
-    path: "/tag/vue/",
+    name: "v-166558e8",
+    path: "/categories/esp32/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
+      ensureAsyncComponentsLoaded("Category", "v-166558e8").then(next)
     },
-    meta: {"pid":"tags","id":"vue"}
+    meta: {"pid":"categories","id":"esp32"}
   },
   {
-    path: "/tag/vue/index.html",
-    redirect: "/tag/vue/"
+    path: "/categories/esp32/index.html",
+    redirect: "/categories/esp32/"
   },
   {
     name: "v-155fc016",
@@ -170,17 +183,17 @@ export const routes = [
     redirect: "/categories/python/"
   },
   {
-    name: "v-166558e8",
-    path: "/categories/esp32/",
+    name: "v-7f164d79",
+    path: "/categories/web/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-166558e8").then(next)
+      ensureAsyncComponentsLoaded("Category", "v-7f164d79").then(next)
     },
-    meta: {"pid":"categories","id":"esp32"}
+    meta: {"pid":"categories","id":"web"}
   },
   {
-    path: "/categories/esp32/index.html",
-    redirect: "/categories/esp32/"
+    path: "/categories/web/index.html",
+    redirect: "/categories/web/"
   },
   {
     name: "v-957eb100",
@@ -194,19 +207,6 @@ export const routes = [
   {
     path: "/categories/pytroch/index.html",
     redirect: "/categories/pytroch/"
-  },
-  {
-    name: "v-7f164d79",
-    path: "/categories/web/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-7f164d79").then(next)
-    },
-    meta: {"pid":"categories","id":"web"}
-  },
-  {
-    path: "/categories/web/index.html",
-    redirect: "/categories/web/"
   },
   {
     path: '*',

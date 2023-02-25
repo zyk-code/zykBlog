@@ -4,13 +4,13 @@
 export const siteData = {
   "title": "zyk space",
   "description": "",
-  "base": "/",
+  "base": "/zykBlog",
   "headTags": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        "href": "/zykBlogfavicon.ico"
       }
     ],
     [
@@ -37,27 +37,8 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-2e6b2d69",
       "path": "/",
-      "lastUpdated": "2/22/2023, 4:28:49 PM",
-      "lastUpdatedTimestamp": 1677054529000
-    },
-    {
-      "title": "Opencv使用踩坑记录",
-      "frontmatter": {
-        "title": "Opencv使用踩坑记录",
-        "tags": [
-          "opencv",
-          "python"
-        ],
-        "categories": [
-          "python"
-        ]
-      },
-      "regularPath": "/blogs/oencv/opncv-python.html",
-      "relativePath": "blogs/oencv/opncv-python.md",
-      "key": "v-6f4ec764",
-      "path": "/blogs/oencv/opncv-python.html",
-      "lastUpdated": "2/22/2023, 4:28:49 PM",
-      "lastUpdatedTimestamp": 1677054529000
+      "lastUpdated": "2/25/2023, 4:37:42 PM",
+      "lastUpdatedTimestamp": 1677314262000
     },
     {
       "title": "Esp32读取MPU6050",
@@ -86,26 +67,27 @@ export const siteData = {
           "slug": "mpu6050模块"
         }
       ],
-      "lastUpdated": "2/22/2023, 4:28:49 PM",
-      "lastUpdatedTimestamp": 1677054529000
+      "lastUpdated": "2/25/2023, 4:38:18 PM",
+      "lastUpdatedTimestamp": 1677314298000
     },
     {
-      "title": "初识pytroch",
+      "title": "Opencv使用踩坑记录",
       "frontmatter": {
-        "title": "初识pytroch",
+        "title": "Opencv使用踩坑记录",
         "tags": [
-          "pytroch"
+          "opencv",
+          "python"
         ],
         "categories": [
-          "pytroch"
+          "python"
         ]
       },
-      "regularPath": "/blogs/pytroch/pytroch.html",
-      "relativePath": "blogs/pytroch/pytroch.md",
-      "key": "v-26ffca18",
-      "path": "/blogs/pytroch/pytroch.html",
-      "lastUpdated": "2/22/2023, 4:16:55 PM",
-      "lastUpdatedTimestamp": 1677053815000
+      "regularPath": "/blogs/oencv/opncv-python.html",
+      "relativePath": "blogs/oencv/opncv-python.md",
+      "key": "v-6f4ec764",
+      "path": "/blogs/oencv/opncv-python.html",
+      "lastUpdated": "2/25/2023, 4:38:18 PM",
+      "lastUpdatedTimestamp": 1677314298000
     },
     {
       "title": "Vue",
@@ -122,8 +104,26 @@ export const siteData = {
       "relativePath": "blogs/web/vue.md",
       "key": "v-08560cd0",
       "path": "/blogs/web/vue.html",
-      "lastUpdated": "2/22/2023, 4:28:49 PM",
-      "lastUpdatedTimestamp": 1677054529000
+      "lastUpdated": "2/25/2023, 4:38:18 PM",
+      "lastUpdatedTimestamp": 1677314298000
+    },
+    {
+      "title": "初识pytroch",
+      "frontmatter": {
+        "title": "初识pytroch",
+        "tags": [
+          "pytroch"
+        ],
+        "categories": [
+          "pytroch"
+        ]
+      },
+      "regularPath": "/blogs/pytroch/pytroch.html",
+      "relativePath": "blogs/pytroch/pytroch.md",
+      "key": "v-26ffca18",
+      "path": "/blogs/pytroch/pytroch.html",
+      "lastUpdated": "2/25/2023, 4:38:18 PM",
+      "lastUpdatedTimestamp": 1677314298000
     },
     {
       "frontmatter": {
@@ -155,6 +155,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "esp32 Tags"
+      },
+      "regularPath": "/tag/esp32/",
+      "key": "v-8ae32fd0",
+      "path": "/tag/esp32/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "opencv Tags"
       },
       "regularPath": "/tag/opencv/",
@@ -173,11 +182,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "esp32 Tags"
+        "title": "vue Tags"
       },
-      "regularPath": "/tag/esp32/",
-      "key": "v-8ae32fd0",
-      "path": "/tag/esp32/"
+      "regularPath": "/tag/vue/",
+      "key": "v-322a45da",
+      "path": "/tag/vue/"
     },
     {
       "frontmatter": {
@@ -187,24 +196,6 @@ export const siteData = {
       "regularPath": "/tag/pytroch/",
       "key": "v-0f0ec90c",
       "path": "/tag/pytroch/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "vue Tags"
-      },
-      "regularPath": "/tag/vue/",
-      "key": "v-322a45da",
-      "path": "/tag/vue/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "python Categories"
-      },
-      "regularPath": "/categories/python/",
-      "key": "v-155fc016",
-      "path": "/categories/python/"
     },
     {
       "frontmatter": {
@@ -218,11 +209,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "pytroch Categories"
+        "title": "python Categories"
       },
-      "regularPath": "/categories/pytroch/",
-      "key": "v-957eb100",
-      "path": "/categories/pytroch/"
+      "regularPath": "/categories/python/",
+      "key": "v-155fc016",
+      "path": "/categories/python/"
     },
     {
       "frontmatter": {
@@ -232,6 +223,15 @@ export const siteData = {
       "regularPath": "/categories/web/",
       "key": "v-7f164d79",
       "path": "/categories/web/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "pytroch Categories"
+      },
+      "regularPath": "/categories/pytroch/",
+      "key": "v-957eb100",
+      "path": "/categories/pytroch/"
     }
   ],
   "themeConfig": {

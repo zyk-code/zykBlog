@@ -3,6 +3,14 @@
  */
 export default {
   "tags": {
+    "esp32": {
+      "key": "esp32",
+      "scope": "tags",
+      "path": "/tag/esp32/",
+      "pageKeys": [
+        "v-c4494550"
+      ]
+    },
     "opencv": {
       "key": "opencv",
       "scope": "tags",
@@ -19,12 +27,12 @@ export default {
         "v-6f4ec764"
       ]
     },
-    "esp32": {
-      "key": "esp32",
+    "vue": {
+      "key": "vue",
       "scope": "tags",
-      "path": "/tag/esp32/",
+      "path": "/tag/vue/",
       "pageKeys": [
-        "v-c4494550"
+        "v-08560cd0"
       ]
     },
     "pytroch": {
@@ -34,25 +42,9 @@ export default {
       "pageKeys": [
         "v-26ffca18"
       ]
-    },
-    "vue": {
-      "key": "vue",
-      "scope": "tags",
-      "path": "/tag/vue/",
-      "pageKeys": [
-        "v-08560cd0"
-      ]
     }
   },
   "categories": {
-    "python": {
-      "key": "python",
-      "scope": "categories",
-      "path": "/categories/python/",
-      "pageKeys": [
-        "v-6f4ec764"
-      ]
-    },
     "esp32": {
       "key": "esp32",
       "scope": "categories",
@@ -61,12 +53,12 @@ export default {
         "v-c4494550"
       ]
     },
-    "pytroch": {
-      "key": "pytroch",
+    "python": {
+      "key": "python",
       "scope": "categories",
-      "path": "/categories/pytroch/",
+      "path": "/categories/python/",
       "pageKeys": [
-        "v-26ffca18"
+        "v-6f4ec764"
       ]
     },
     "web": {
@@ -75,6 +67,14 @@ export default {
       "path": "/categories/web/",
       "pageKeys": [
         "v-08560cd0"
+      ]
+    },
+    "pytroch": {
+      "key": "pytroch",
+      "scope": "categories",
+      "path": "/categories/pytroch/",
+      "pageKeys": [
+        "v-26ffca18"
       ]
     }
   },
