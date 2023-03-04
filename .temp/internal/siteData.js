@@ -23,6 +23,67 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "卷积和池化",
+      "frontmatter": {
+        "title": "卷积和池化",
+        "tags": [
+          "image"
+        ],
+        "categories": [
+          "3D vision"
+        ]
+      },
+      "regularPath": "/blogs/3D%20vision/conv_and_pool.html",
+      "relativePath": "blogs/3D vision/conv_and_pool.md",
+      "key": "v-d2c4ce30",
+      "path": "/blogs/3D%20vision/conv_and_pool.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "池化",
+          "slug": "池化"
+        },
+        {
+          "level": 2,
+          "title": "卷积的作用",
+          "slug": "卷积的作用"
+        },
+        {
+          "level": 2,
+          "title": "池化的作用",
+          "slug": "池化的作用"
+        }
+      ]
+    },
+    {
+      "title": "3D 相关的词解",
+      "frontmatter": {
+        "title": "3D 相关的词解",
+        "tags": [
+          "node"
+        ],
+        "categories": [
+          "3D vision"
+        ]
+      },
+      "regularPath": "/blogs/3D%20vision/word.html",
+      "relativePath": "blogs/3D vision/word.md",
+      "key": "v-68e0875a",
+      "path": "/blogs/3D%20vision/word.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "图像",
+          "slug": "图像"
+        },
+        {
+          "level": 2,
+          "title": "网络",
+          "slug": "网络"
+        }
+      ]
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -35,17 +96,10 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-2e6b2d69",
+      "key": "v-0cb0f154",
       "path": "/",
-      "lastUpdated": "2/25/2023, 5:33:14 PM",
-      "lastUpdatedTimestamp": 1677317594000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/app/",
-      "relativePath": "app/README.md",
-      "key": "v-1e7fe9b2",
-      "path": "/app/"
+      "lastUpdated": "2/25/2023, 10:53:10 PM",
+      "lastUpdatedTimestamp": 1677336790000
     },
     {
       "title": "Esp32读取MPU6050",
@@ -60,7 +114,7 @@ export const siteData = {
       },
       "regularPath": "/blogs/esp32/mpu6050.html",
       "relativePath": "blogs/esp32/mpu6050.md",
-      "key": "v-c4494550",
+      "key": "v-3a0da38b",
       "path": "/blogs/esp32/mpu6050.html",
       "headers": [
         {
@@ -78,23 +132,96 @@ export const siteData = {
       "lastUpdatedTimestamp": 1677314298000
     },
     {
-      "title": "Opencv使用踩坑记录",
+      "title": "3D视觉基础知识",
       "frontmatter": {
-        "title": "Opencv使用踩坑记录",
+        "title": "3D视觉基础知识",
         "tags": [
-          "opencv",
-          "python"
+          "3D vision"
         ],
         "categories": [
-          "python"
+          "3D vision"
         ]
       },
-      "regularPath": "/blogs/oencv/opncv-python.html",
-      "relativePath": "blogs/oencv/opncv-python.md",
-      "key": "v-6f4ec764",
-      "path": "/blogs/oencv/opncv-python.html",
-      "lastUpdated": "2/25/2023, 4:38:18 PM",
-      "lastUpdatedTimestamp": 1677314298000
+      "regularPath": "/blogs/3D%20vision/one.html",
+      "relativePath": "blogs/3D vision/one.md",
+      "key": "v-7374fd08",
+      "path": "/blogs/3D%20vision/one.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "三维空间的描述",
+          "slug": "三维空间的描述"
+        }
+      ]
+    },
+    {
+      "title": "jetson nano pycharm 下安装配置py-qt5",
+      "frontmatter": {
+        "title": "jetson nano pycharm 下安装配置py-qt5",
+        "tags": [
+          "qt",
+          "ubuntu18",
+          "jetson nano"
+        ],
+        "categories": [
+          "jetson nano"
+        ]
+      },
+      "regularPath": "/blogs/jetson%20nano/qt5Py.html",
+      "relativePath": "blogs/jetson nano/qt5Py.md",
+      "key": "v-6f983828",
+      "path": "/blogs/jetson%20nano/qt5Py.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "py-qt5 及 依赖的安装",
+          "slug": "py-qt5-及-依赖的安装"
+        },
+        {
+          "level": 2,
+          "title": "pycharm 安装（注意 是arm 64）",
+          "slug": "pycharm-安装-注意-是arm-64"
+        },
+        {
+          "level": 2,
+          "title": "pycharm配置QtDesigner",
+          "slug": "pycharm配置qtdesigner"
+        }
+      ]
+    },
+    {
+      "title": "vuepress搭建blog记录",
+      "frontmatter": {
+        "title": "vuepress搭建blog记录",
+        "tags": [
+          "vuepress",
+          "vue"
+        ],
+        "categories": [
+          "web"
+        ]
+      },
+      "regularPath": "/blogs/web/node_blog.html",
+      "relativePath": "blogs/web/node_blog.md",
+      "key": "v-36f68f2b",
+      "path": "/blogs/web/node_blog.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "学习记录",
+          "slug": "学习记录"
+        },
+        {
+          "level": 2,
+          "title": "1、md文件模板",
+          "slug": "_1、md文件模板"
+        },
+        {
+          "level": 3,
+          "title": "部署记录",
+          "slug": "部署记录"
+        }
+      ]
     },
     {
       "title": "初识pytroch",
@@ -109,10 +236,28 @@ export const siteData = {
       },
       "regularPath": "/blogs/pytroch/pytroch.html",
       "relativePath": "blogs/pytroch/pytroch.md",
-      "key": "v-26ffca18",
+      "key": "v-376dbecb",
       "path": "/blogs/pytroch/pytroch.html",
       "lastUpdated": "2/25/2023, 4:38:18 PM",
       "lastUpdatedTimestamp": 1677314298000
+    },
+    {
+      "title": "Opencv使用踩坑记录",
+      "frontmatter": {
+        "title": "Opencv使用踩坑记录",
+        "tags": [
+          "opencv",
+          "python",
+          "jetson nano"
+        ],
+        "categories": [
+          "jetson nano"
+        ]
+      },
+      "regularPath": "/blogs/jetson%20nano/opncv-python.html",
+      "relativePath": "blogs/jetson nano/opncv-python.md",
+      "key": "v-4685d024",
+      "path": "/blogs/jetson%20nano/opncv-python.html"
     },
     {
       "title": "Vue",
@@ -127,17 +272,10 @@ export const siteData = {
       },
       "regularPath": "/blogs/web/vue.html",
       "relativePath": "blogs/web/vue.md",
-      "key": "v-08560cd0",
+      "key": "v-5030b44b",
       "path": "/blogs/web/vue.html",
       "lastUpdated": "2/25/2023, 4:38:18 PM",
       "lastUpdatedTimestamp": 1677314298000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/mm/",
-      "relativePath": "mm/README.md",
-      "key": "v-2a4d008c",
-      "path": "/mm/"
     },
     {
       "frontmatter": {
@@ -169,11 +307,92 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "image Tags"
+      },
+      "regularPath": "/tag/image/",
+      "key": "v-7df19544",
+      "path": "/tag/image/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "node Tags"
+      },
+      "regularPath": "/tag/node/",
+      "key": "v-14055bfa",
+      "path": "/tag/node/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "esp32 Tags"
       },
       "regularPath": "/tag/esp32/",
       "key": "v-8ae32fd0",
       "path": "/tag/esp32/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "3D vision Tags"
+      },
+      "regularPath": "/tag/3D%20vision/",
+      "key": "v-2f092b9f",
+      "path": "/tag/3D vision/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "qt Tags"
+      },
+      "regularPath": "/tag/qt/",
+      "key": "v-e8d838fc",
+      "path": "/tag/qt/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "ubuntu18 Tags"
+      },
+      "regularPath": "/tag/ubuntu18/",
+      "key": "v-dd73a992",
+      "path": "/tag/ubuntu18/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "jetson nano Tags"
+      },
+      "regularPath": "/tag/jetson%20nano/",
+      "key": "v-192d793b",
+      "path": "/tag/jetson nano/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "vuepress Tags"
+      },
+      "regularPath": "/tag/vuepress/",
+      "key": "v-dfb71430",
+      "path": "/tag/vuepress/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "vue Tags"
+      },
+      "regularPath": "/tag/vue/",
+      "key": "v-322a45da",
+      "path": "/tag/vue/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "pytroch Tags"
+      },
+      "regularPath": "/tag/pytroch/",
+      "key": "v-0f0ec90c",
+      "path": "/tag/pytroch/"
     },
     {
       "frontmatter": {
@@ -195,21 +414,12 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "layout": "Tag",
-        "title": "pytroch Tags"
+        "layout": "Category",
+        "title": "3D vision Categories"
       },
-      "regularPath": "/tag/pytroch/",
-      "key": "v-0f0ec90c",
-      "path": "/tag/pytroch/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "vue Tags"
-      },
-      "regularPath": "/tag/vue/",
-      "key": "v-322a45da",
-      "path": "/tag/vue/"
+      "regularPath": "/categories/3D%20vision/",
+      "key": "v-d9029fda",
+      "path": "/categories/3D vision/"
     },
     {
       "frontmatter": {
@@ -223,20 +433,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "python Categories"
+        "title": "jetson nano Categories"
       },
-      "regularPath": "/categories/python/",
-      "key": "v-155fc016",
-      "path": "/categories/python/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "pytroch Categories"
-      },
-      "regularPath": "/categories/pytroch/",
-      "key": "v-957eb100",
-      "path": "/categories/pytroch/"
+      "regularPath": "/categories/jetson%20nano/",
+      "key": "v-3653b0af",
+      "path": "/categories/jetson nano/"
     },
     {
       "frontmatter": {
@@ -246,6 +447,15 @@ export const siteData = {
       "regularPath": "/categories/web/",
       "key": "v-7f164d79",
       "path": "/categories/web/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "pytroch Categories"
+      },
+      "regularPath": "/categories/pytroch/",
+      "key": "v-957eb100",
+      "path": "/categories/pytroch/"
     }
   ],
   "themeConfig": {
@@ -261,10 +471,6 @@ export const siteData = {
         "text": "时间线",
         "link": "/timeline/",
         "icon": "reco-date"
-      },
-      {
-        "text": "app",
-        "link": "/app/"
       },
       {
         "text": "关于",

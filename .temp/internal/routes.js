@@ -4,16 +4,48 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "D:\\object\\vue\\zykBlog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-2e6b2d69",
+    name: "v-d2c4ce30",
+    path: "/blogs/3D%20vision/conv_and_pool.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d2c4ce30").then(next)
+    },
+  },
+  {
+    path: "/blogs/3D vision/conv_and_pool.html",
+    redirect: "/blogs/3D%20vision/conv_and_pool.html"
+  },
+  {
+    path: "/blogs/3D vision/conv_and_pool.html",
+    redirect: "/blogs/3D%20vision/conv_and_pool.html"
+  },
+  {
+    name: "v-68e0875a",
+    path: "/blogs/3D%20vision/word.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-68e0875a").then(next)
+    },
+  },
+  {
+    path: "/blogs/3D vision/word.html",
+    redirect: "/blogs/3D%20vision/word.html"
+  },
+  {
+    path: "/blogs/3D vision/word.html",
+    redirect: "/blogs/3D%20vision/word.html"
+  },
+  {
+    name: "v-0cb0f154",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2e6b2d69").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0cb0f154").then(next)
     },
   },
   {
@@ -21,60 +53,84 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-1e7fe9b2",
-    path: "/app/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1e7fe9b2").then(next)
-    },
-  },
-  {
-    path: "/app/index.html",
-    redirect: "/app/"
-  },
-  {
-    name: "v-c4494550",
+    name: "v-3a0da38b",
     path: "/blogs/esp32/mpu6050.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c4494550").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3a0da38b").then(next)
     },
   },
   {
-    name: "v-6f4ec764",
-    path: "/blogs/oencv/opncv-python.html",
+    name: "v-7374fd08",
+    path: "/blogs/3D%20vision/one.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6f4ec764").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7374fd08").then(next)
     },
   },
   {
-    name: "v-26ffca18",
+    path: "/blogs/3D vision/one.html",
+    redirect: "/blogs/3D%20vision/one.html"
+  },
+  {
+    path: "/blogs/3D vision/one.html",
+    redirect: "/blogs/3D%20vision/one.html"
+  },
+  {
+    name: "v-6f983828",
+    path: "/blogs/jetson%20nano/qt5Py.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6f983828").then(next)
+    },
+  },
+  {
+    path: "/blogs/jetson nano/qt5Py.html",
+    redirect: "/blogs/jetson%20nano/qt5Py.html"
+  },
+  {
+    path: "/blogs/jetson nano/qt5Py.html",
+    redirect: "/blogs/jetson%20nano/qt5Py.html"
+  },
+  {
+    name: "v-36f68f2b",
+    path: "/blogs/web/node_blog.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-36f68f2b").then(next)
+    },
+  },
+  {
+    name: "v-376dbecb",
     path: "/blogs/pytroch/pytroch.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-26ffca18").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-376dbecb").then(next)
     },
   },
   {
-    name: "v-08560cd0",
+    name: "v-4685d024",
+    path: "/blogs/jetson%20nano/opncv-python.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4685d024").then(next)
+    },
+  },
+  {
+    path: "/blogs/jetson nano/opncv-python.html",
+    redirect: "/blogs/jetson%20nano/opncv-python.html"
+  },
+  {
+    path: "/blogs/jetson nano/opncv-python.html",
+    redirect: "/blogs/jetson%20nano/opncv-python.html"
+  },
+  {
+    name: "v-5030b44b",
     path: "/blogs/web/vue.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-08560cd0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5030b44b").then(next)
     },
-  },
-  {
-    name: "v-2a4d008c",
-    path: "/mm/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2a4d008c").then(next)
-    },
-  },
-  {
-    path: "/mm/index.html",
-    redirect: "/mm/"
   },
   {
     name: "v-b1564aac",
@@ -116,6 +172,32 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
+    name: "v-7df19544",
+    path: "/tag/image/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-7df19544").then(next)
+    },
+    meta: {"pid":"tags","id":"image"}
+  },
+  {
+    path: "/tag/image/index.html",
+    redirect: "/tag/image/"
+  },
+  {
+    name: "v-14055bfa",
+    path: "/tag/node/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-14055bfa").then(next)
+    },
+    meta: {"pid":"tags","id":"node"}
+  },
+  {
+    path: "/tag/node/index.html",
+    redirect: "/tag/node/"
+  },
+  {
     name: "v-8ae32fd0",
     path: "/tag/esp32/",
     component: GlobalLayout,
@@ -127,6 +209,97 @@ export const routes = [
   {
     path: "/tag/esp32/index.html",
     redirect: "/tag/esp32/"
+  },
+  {
+    name: "v-2f092b9f",
+    path: "/tag/3D vision/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-2f092b9f").then(next)
+    },
+    meta: {"pid":"tags","id":"3D vision"}
+  },
+  {
+    path: "/tag/3D vision/index.html",
+    redirect: "/tag/3D vision/"
+  },
+  {
+    name: "v-e8d838fc",
+    path: "/tag/qt/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-e8d838fc").then(next)
+    },
+    meta: {"pid":"tags","id":"qt"}
+  },
+  {
+    path: "/tag/qt/index.html",
+    redirect: "/tag/qt/"
+  },
+  {
+    name: "v-dd73a992",
+    path: "/tag/ubuntu18/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-dd73a992").then(next)
+    },
+    meta: {"pid":"tags","id":"ubuntu18"}
+  },
+  {
+    path: "/tag/ubuntu18/index.html",
+    redirect: "/tag/ubuntu18/"
+  },
+  {
+    name: "v-192d793b",
+    path: "/tag/jetson nano/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-192d793b").then(next)
+    },
+    meta: {"pid":"tags","id":"jetson nano"}
+  },
+  {
+    path: "/tag/jetson nano/index.html",
+    redirect: "/tag/jetson nano/"
+  },
+  {
+    name: "v-dfb71430",
+    path: "/tag/vuepress/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-dfb71430").then(next)
+    },
+    meta: {"pid":"tags","id":"vuepress"}
+  },
+  {
+    path: "/tag/vuepress/index.html",
+    redirect: "/tag/vuepress/"
+  },
+  {
+    name: "v-322a45da",
+    path: "/tag/vue/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
+    },
+    meta: {"pid":"tags","id":"vue"}
+  },
+  {
+    path: "/tag/vue/index.html",
+    redirect: "/tag/vue/"
+  },
+  {
+    name: "v-0f0ec90c",
+    path: "/tag/pytroch/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-0f0ec90c").then(next)
+    },
+    meta: {"pid":"tags","id":"pytroch"}
+  },
+  {
+    path: "/tag/pytroch/index.html",
+    redirect: "/tag/pytroch/"
   },
   {
     name: "v-bac21cb0",
@@ -155,30 +328,17 @@ export const routes = [
     redirect: "/tag/python/"
   },
   {
-    name: "v-0f0ec90c",
-    path: "/tag/pytroch/",
+    name: "v-d9029fda",
+    path: "/categories/3D vision/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-0f0ec90c").then(next)
+      ensureAsyncComponentsLoaded("Category", "v-d9029fda").then(next)
     },
-    meta: {"pid":"tags","id":"pytroch"}
+    meta: {"pid":"categories","id":"3D vision"}
   },
   {
-    path: "/tag/pytroch/index.html",
-    redirect: "/tag/pytroch/"
-  },
-  {
-    name: "v-322a45da",
-    path: "/tag/vue/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
-    },
-    meta: {"pid":"tags","id":"vue"}
-  },
-  {
-    path: "/tag/vue/index.html",
-    redirect: "/tag/vue/"
+    path: "/categories/3D vision/index.html",
+    redirect: "/categories/3D vision/"
   },
   {
     name: "v-166558e8",
@@ -194,30 +354,17 @@ export const routes = [
     redirect: "/categories/esp32/"
   },
   {
-    name: "v-155fc016",
-    path: "/categories/python/",
+    name: "v-3653b0af",
+    path: "/categories/jetson nano/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-155fc016").then(next)
+      ensureAsyncComponentsLoaded("Category", "v-3653b0af").then(next)
     },
-    meta: {"pid":"categories","id":"python"}
+    meta: {"pid":"categories","id":"jetson nano"}
   },
   {
-    path: "/categories/python/index.html",
-    redirect: "/categories/python/"
-  },
-  {
-    name: "v-957eb100",
-    path: "/categories/pytroch/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-957eb100").then(next)
-    },
-    meta: {"pid":"categories","id":"pytroch"}
-  },
-  {
-    path: "/categories/pytroch/index.html",
-    redirect: "/categories/pytroch/"
+    path: "/categories/jetson nano/index.html",
+    redirect: "/categories/jetson nano/"
   },
   {
     name: "v-7f164d79",
@@ -231,6 +378,19 @@ export const routes = [
   {
     path: "/categories/web/index.html",
     redirect: "/categories/web/"
+  },
+  {
+    name: "v-957eb100",
+    path: "/categories/pytroch/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-957eb100").then(next)
+    },
+    meta: {"pid":"categories","id":"pytroch"}
+  },
+  {
+    path: "/categories/pytroch/index.html",
+    redirect: "/categories/pytroch/"
   },
   {
     path: '*',

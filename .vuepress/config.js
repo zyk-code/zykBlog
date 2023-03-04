@@ -36,10 +36,7 @@ module.exports = {
         link: "/timeline/",
         icon: "reco-date"
       },
-      {
-        text: "app",
-        link: "/app/"
-      },
+      
       {
         text: "关于",
         icon: "reco-message",

@@ -1,1 +1,1 @@
-export { default } from "D:\\object\\vue\\zykBlog\\node_modules\\@vuepress-reco\\vuepress-plugin-pagation\\bin\\enhanceAppFile.js"
+export { default } from "C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\node_modules\\@vuepress-reco\\vuepress-plugin-pagation\\bin\\enhanceAppFile.js"

@@ -3,36 +3,69 @@
  */
 export default {
   "tags": {
+    "image": {
+      "key": "image",
+      "scope": "tags",
+      "path": "/tag/image/",
+      "pageKeys": [
+        "v-d2c4ce30"
+      ]
+    },
+    "node": {
+      "key": "node",
+      "scope": "tags",
+      "path": "/tag/node/",
+      "pageKeys": [
+        "v-68e0875a"
+      ]
+    },
     "esp32": {
       "key": "esp32",
       "scope": "tags",
       "path": "/tag/esp32/",
       "pageKeys": [
-        "v-c4494550"
+        "v-3a0da38b"
       ]
     },
-    "opencv": {
-      "key": "opencv",
+    "3D vision": {
+      "key": "3D vision",
       "scope": "tags",
-      "path": "/tag/opencv/",
+      "path": "/tag/3D vision/",
       "pageKeys": [
-        "v-6f4ec764"
+        "v-7374fd08"
       ]
     },
-    "python": {
-      "key": "python",
+    "qt": {
+      "key": "qt",
       "scope": "tags",
-      "path": "/tag/python/",
+      "path": "/tag/qt/",
       "pageKeys": [
-        "v-6f4ec764"
+        "v-6f983828"
       ]
     },
-    "pytroch": {
-      "key": "pytroch",
+    "ubuntu18": {
+      "key": "ubuntu18",
       "scope": "tags",
-      "path": "/tag/pytroch/",
+      "path": "/tag/ubuntu18/",
       "pageKeys": [
-        "v-26ffca18"
+        "v-6f983828"
+      ]
+    },
+    "jetson nano": {
+      "key": "jetson nano",
+      "scope": "tags",
+      "path": "/tag/jetson nano/",
+      "pageKeys": [
+        "v-6f983828",
+        "v-4685d024"
+      ]
+    },
+    "vuepress": {
+      "key": "vuepress",
+      "scope": "tags",
+      "path": "/tag/vuepress/",
+      "pageKeys": [
+        "v-36f68f2b"
       ]
     },
     "vue": {
@@ -40,33 +73,61 @@ export default {
       "scope": "tags",
       "path": "/tag/vue/",
       "pageKeys": [
-        "v-08560cd0"
+        "v-36f68f2b",
+        "v-5030b44b"
+      ]
+    },
+    "pytroch": {
+      "key": "pytroch",
+      "scope": "tags",
+      "path": "/tag/pytroch/",
+      "pageKeys": [
+        "v-376dbecb"
+      ]
+    },
+    "opencv": {
+      "key": "opencv",
+      "scope": "tags",
+      "path": "/tag/opencv/",
+      "pageKeys": [
+        "v-4685d024"
+      ]
+    },
+    "python": {
+      "key": "python",
+      "scope": "tags",
+      "path": "/tag/python/",
+      "pageKeys": [
+        "v-4685d024"
       ]
     }
   },
   "categories": {
+    "3D vision": {
+      "key": "3D vision",
+      "scope": "categories",
+      "path": "/categories/3D vision/",
+      "pageKeys": [
+        "v-d2c4ce30",
+        "v-68e0875a",
+        "v-7374fd08"
+      ]
+    },
     "esp32": {
       "key": "esp32",
       "scope": "categories",
       "path": "/categories/esp32/",
       "pageKeys": [
-        "v-c4494550"
+        "v-3a0da38b"
       ]
     },
-    "python": {
-      "key": "python",
+    "jetson nano": {
+      "key": "jetson nano",
       "scope": "categories",
-      "path": "/categories/python/",
+      "path": "/categories/jetson nano/",
       "pageKeys": [
-        "v-6f4ec764"
-      ]
-    },
-    "pytroch": {
-      "key": "pytroch",
-      "scope": "categories",
-      "path": "/categories/pytroch/",
-      "pageKeys": [
-        "v-26ffca18"
+        "v-6f983828",
+        "v-4685d024"
       ]
     },
     "web": {
@@ -74,7 +135,16 @@ export default {
       "scope": "categories",
       "path": "/categories/web/",
       "pageKeys": [
-        "v-08560cd0"
+        "v-36f68f2b",
+        "v-5030b44b"
+      ]
+    },
+    "pytroch": {
+      "key": "pytroch",
+      "scope": "categories",
+      "path": "/categories/pytroch/",
+      "pageKeys": [
+        "v-376dbecb"
       ]
     }
   },
