@@ -11,6 +11,14 @@ export default {
         "v-d2c4ce30"
       ]
     },
+    "3D vision": {
+      "key": "3D vision",
+      "scope": "tags",
+      "path": "/tag/3D vision/",
+      "pageKeys": [
+        "v-7374fd08"
+      ]
+    },
     "node": {
       "key": "node",
       "scope": "tags",
@@ -19,20 +27,46 @@ export default {
         "v-68e0875a"
       ]
     },
+    "opencv": {
+      "key": "opencv",
+      "scope": "tags",
+      "path": "/tag/opencv/",
+      "pageKeys": [
+        "v-4685d024"
+      ]
+    },
+    "python": {
+      "key": "python",
+      "scope": "tags",
+      "path": "/tag/python/",
+      "pageKeys": [
+        "v-4685d024"
+      ]
+    },
+    "jetson nano": {
+      "key": "jetson nano",
+      "scope": "tags",
+      "path": "/tag/jetson nano/",
+      "pageKeys": [
+        "v-4685d024",
+        "v-6f983828"
+      ]
+    },
+    "learnning reword": {
+      "key": "learnning reword",
+      "scope": "tags",
+      "path": "/tag/learnning reword/",
+      "pageKeys": [
+        "v-3e69159b",
+        "v-bfc1e6ea"
+      ]
+    },
     "esp32": {
       "key": "esp32",
       "scope": "tags",
       "path": "/tag/esp32/",
       "pageKeys": [
-        "v-3a0da38b"
-      ]
-    },
-    "3D vision": {
-      "key": "3D vision",
-      "scope": "tags",
-      "path": "/tag/3D vision/",
-      "pageKeys": [
-        "v-7374fd08"
+        "v-5c7067f0"
       ]
     },
     "qt": {
@@ -51,13 +85,12 @@ export default {
         "v-6f983828"
       ]
     },
-    "jetson nano": {
-      "key": "jetson nano",
+    "pytroch": {
+      "key": "pytroch",
       "scope": "tags",
-      "path": "/tag/jetson nano/",
+      "path": "/tag/pytroch/",
       "pageKeys": [
-        "v-6f983828",
-        "v-4685d024"
+        "v-376dbecb"
       ]
     },
     "vuepress": {
@@ -76,30 +109,6 @@ export default {
         "v-36f68f2b",
         "v-5030b44b"
       ]
-    },
-    "pytroch": {
-      "key": "pytroch",
-      "scope": "tags",
-      "path": "/tag/pytroch/",
-      "pageKeys": [
-        "v-376dbecb"
-      ]
-    },
-    "opencv": {
-      "key": "opencv",
-      "scope": "tags",
-      "path": "/tag/opencv/",
-      "pageKeys": [
-        "v-4685d024"
-      ]
-    },
-    "python": {
-      "key": "python",
-      "scope": "tags",
-      "path": "/tag/python/",
-      "pageKeys": [
-        "v-4685d024"
-      ]
     }
   },
   "categories": {
@@ -109,16 +118,8 @@ export default {
       "path": "/categories/3D vision/",
       "pageKeys": [
         "v-d2c4ce30",
-        "v-68e0875a",
-        "v-7374fd08"
-      ]
-    },
-    "esp32": {
-      "key": "esp32",
-      "scope": "categories",
-      "path": "/categories/esp32/",
-      "pageKeys": [
-        "v-3a0da38b"
+        "v-7374fd08",
+        "v-68e0875a"
       ]
     },
     "jetson nano": {
@@ -126,17 +127,17 @@ export default {
       "scope": "categories",
       "path": "/categories/jetson nano/",
       "pageKeys": [
-        "v-6f983828",
-        "v-4685d024"
+        "v-4685d024",
+        "v-6f983828"
       ]
     },
-    "web": {
-      "key": "web",
+    "Embedded Hardware": {
+      "key": "Embedded Hardware",
       "scope": "categories",
-      "path": "/categories/web/",
+      "path": "/categories/Embedded Hardware/",
       "pageKeys": [
-        "v-36f68f2b",
-        "v-5030b44b"
+        "v-3e69159b",
+        "v-5c7067f0"
       ]
     },
     "pytroch": {
@@ -145,6 +146,16 @@ export default {
       "path": "/categories/pytroch/",
       "pageKeys": [
         "v-376dbecb"
+      ]
+    },
+    "web": {
+      "key": "web",
+      "scope": "categories",
+      "path": "/categories/web/",
+      "pageKeys": [
+        "v-bfc1e6ea",
+        "v-36f68f2b",
+        "v-5030b44b"
       ]
     }
   },

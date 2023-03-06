@@ -10,7 +10,7 @@ export const siteData = {
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        "href": "/favicon_1.ico"
       }
     ],
     [
@@ -22,6 +22,24 @@ export const siteData = {
     ]
   ],
   "pages": [
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "word ＆ node",
+        "tagline": "一个存放个人笔记的地方。",
+        "bgImageStyle": {
+          "height": "750px"
+        },
+        "isShowTitleInHome": false
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-0cb0f154",
+      "path": "/",
+      "lastUpdated": "2/25/2023, 10:53:10 PM",
+      "lastUpdatedTimestamp": 1677336790000
+    },
     {
       "title": "卷积和池化",
       "frontmatter": {
@@ -53,7 +71,34 @@ export const siteData = {
           "title": "池化的作用",
           "slug": "池化的作用"
         }
-      ]
+      ],
+      "lastUpdated": "3/4/2023, 10:43:30 PM",
+      "lastUpdatedTimestamp": 1677941010000
+    },
+    {
+      "title": "3D视觉基础知识",
+      "frontmatter": {
+        "title": "3D视觉基础知识",
+        "tags": [
+          "3D vision"
+        ],
+        "categories": [
+          "3D vision"
+        ]
+      },
+      "regularPath": "/blogs/3D%20vision/one.html",
+      "relativePath": "blogs/3D vision/one.md",
+      "key": "v-7374fd08",
+      "path": "/blogs/3D%20vision/one.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "三维空间的描述",
+          "slug": "三维空间的描述"
+        }
+      ],
+      "lastUpdated": "3/4/2023, 10:43:30 PM",
+      "lastUpdatedTimestamp": 1677941010000
     },
     {
       "title": "3D 相关的词解",
@@ -81,25 +126,117 @@ export const siteData = {
           "title": "网络",
           "slug": "网络"
         }
-      ]
+      ],
+      "lastUpdated": "3/4/2023, 10:43:30 PM",
+      "lastUpdatedTimestamp": 1677941010000
     },
     {
-      "title": "Home",
+      "title": "Opencv使用踩坑记录",
       "frontmatter": {
-        "home": true,
-        "heroText": "word ＆ node",
-        "tagline": "一个存放个人笔记的地方。",
-        "bgImageStyle": {
-          "height": "750px"
-        },
-        "isShowTitleInHome": false
+        "title": "Opencv使用踩坑记录",
+        "tags": [
+          "opencv",
+          "python",
+          "jetson nano"
+        ],
+        "categories": [
+          "jetson nano"
+        ]
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-0cb0f154",
-      "path": "/",
-      "lastUpdated": "2/25/2023, 10:53:10 PM",
-      "lastUpdatedTimestamp": 1677336790000
+      "regularPath": "/blogs/jetson%20nano/opncv-python.html",
+      "relativePath": "blogs/jetson nano/opncv-python.md",
+      "key": "v-4685d024",
+      "path": "/blogs/jetson%20nano/opncv-python.html",
+      "lastUpdated": "3/4/2023, 10:43:30 PM",
+      "lastUpdatedTimestamp": 1677941010000
+    },
+    {
+      "title": "嵌入式学习记录",
+      "frontmatter": {
+        "title": "嵌入式学习记录",
+        "tags": [
+          "learnning reword"
+        ],
+        "categories": [
+          "Embedded Hardware"
+        ]
+      },
+      "regularPath": "/blogs/Embedded%20Hardware/Embedded%20Hardware%20Learning%20Records.html",
+      "relativePath": "blogs/Embedded Hardware/Embedded Hardware Learning Records.md",
+      "key": "v-3e69159b",
+      "path": "/blogs/Embedded%20Hardware/Embedded%20Hardware%20Learning%20Records.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "缺少的库",
+          "slug": "缺少的库"
+        },
+        {
+          "level": 3,
+          "title": "软件学习记录",
+          "slug": "软件学习记录"
+        },
+        {
+          "level": 3,
+          "title": "使用技巧",
+          "slug": "使用技巧"
+        },
+        {
+          "level": 2,
+          "title": "寻址方式",
+          "slug": "寻址方式"
+        },
+        {
+          "level": 3,
+          "title": "小知识点",
+          "slug": "小知识点"
+        },
+        {
+          "level": 2,
+          "title": "指令系统",
+          "slug": "指令系统"
+        },
+        {
+          "level": 3,
+          "title": "小知识点",
+          "slug": "小知识点-2"
+        },
+        {
+          "level": 2,
+          "title": "基本的程序结构",
+          "slug": "基本的程序结构"
+        },
+        {
+          "level": 3,
+          "title": "定时/计数器",
+          "slug": "定时-计数器"
+        },
+        {
+          "level": 3,
+          "title": "中断",
+          "slug": "中断"
+        },
+        {
+          "level": 3,
+          "title": "网络通信的知识",
+          "slug": "网络通信的知识"
+        },
+        {
+          "level": 3,
+          "title": "串口通信",
+          "slug": "串口通信"
+        },
+        {
+          "level": 3,
+          "title": "IIC协议",
+          "slug": "iic协议"
+        },
+        {
+          "level": 3,
+          "title": "SPI协议",
+          "slug": "spi协议"
+        }
+      ]
     },
     {
       "title": "Esp32读取MPU6050",
@@ -109,13 +246,13 @@ export const siteData = {
           "esp32"
         ],
         "categories": [
-          "esp32"
+          "Embedded Hardware"
         ]
       },
-      "regularPath": "/blogs/esp32/mpu6050.html",
-      "relativePath": "blogs/esp32/mpu6050.md",
-      "key": "v-3a0da38b",
-      "path": "/blogs/esp32/mpu6050.html",
+      "regularPath": "/blogs/Embedded%20Hardware/mpu6050.html",
+      "relativePath": "blogs/Embedded Hardware/mpu6050.md",
+      "key": "v-5c7067f0",
+      "path": "/blogs/Embedded%20Hardware/mpu6050.html",
       "headers": [
         {
           "level": 2,
@@ -126,31 +263,6 @@ export const siteData = {
           "level": 2,
           "title": "MPU6050模块",
           "slug": "mpu6050模块"
-        }
-      ],
-      "lastUpdated": "2/25/2023, 4:38:18 PM",
-      "lastUpdatedTimestamp": 1677314298000
-    },
-    {
-      "title": "3D视觉基础知识",
-      "frontmatter": {
-        "title": "3D视觉基础知识",
-        "tags": [
-          "3D vision"
-        ],
-        "categories": [
-          "3D vision"
-        ]
-      },
-      "regularPath": "/blogs/3D%20vision/one.html",
-      "relativePath": "blogs/3D vision/one.md",
-      "key": "v-7374fd08",
-      "path": "/blogs/3D%20vision/one.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "三维空间的描述",
-          "slug": "三维空间的描述"
         }
       ]
     },
@@ -187,6 +299,124 @@ export const siteData = {
           "title": "pycharm配置QtDesigner",
           "slug": "pycharm配置qtdesigner"
         }
+      ],
+      "lastUpdated": "3/4/2023, 10:43:30 PM",
+      "lastUpdatedTimestamp": 1677941010000
+    },
+    {
+      "title": "初识pytroch",
+      "frontmatter": {
+        "title": "初识pytroch",
+        "tags": [
+          "pytroch"
+        ],
+        "categories": [
+          "pytroch"
+        ]
+      },
+      "regularPath": "/blogs/pytroch/pytroch.html",
+      "relativePath": "blogs/pytroch/pytroch.md",
+      "key": "v-376dbecb",
+      "path": "/blogs/pytroch/pytroch.html",
+      "lastUpdated": "2/25/2023, 4:38:18 PM",
+      "lastUpdatedTimestamp": 1677314298000
+    },
+    {
+      "title": "计算机操作系统学习记录",
+      "frontmatter": {
+        "title": "计算机操作系统学习记录",
+        "tags": [
+          "learnning reword"
+        ],
+        "categories": [
+          "web"
+        ]
+      },
+      "regularPath": "/blogs/web/LearnningOS.html",
+      "relativePath": "blogs/web/LearnningOS.md",
+      "key": "v-bfc1e6ea",
+      "path": "/blogs/web/LearnningOS.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "概述",
+          "slug": "概述"
+        },
+        {
+          "level": 3,
+          "title": "发展过程",
+          "slug": "发展过程"
+        },
+        {
+          "level": 3,
+          "title": "内核",
+          "slug": "内核"
+        },
+        {
+          "level": 2,
+          "title": "进程于线程",
+          "slug": "进程于线程"
+        },
+        {
+          "level": 3,
+          "title": "进程",
+          "slug": "进程"
+        },
+        {
+          "level": 3,
+          "title": "进程的状态转换",
+          "slug": "进程的状态转换"
+        },
+        {
+          "level": 3,
+          "title": "进程通信",
+          "slug": "进程通信"
+        },
+        {
+          "level": 3,
+          "title": "线程",
+          "slug": "线程"
+        },
+        {
+          "level": 2,
+          "title": "调度",
+          "slug": "调度"
+        },
+        {
+          "level": 3,
+          "title": "处理机调度",
+          "slug": "处理机调度"
+        },
+        {
+          "level": 3,
+          "title": "调度算法的评估指标",
+          "slug": "调度算法的评估指标"
+        },
+        {
+          "level": 3,
+          "title": "调度算法",
+          "slug": "调度算法"
+        },
+        {
+          "level": 2,
+          "title": "同步和互斥",
+          "slug": "同步和互斥"
+        },
+        {
+          "level": 3,
+          "title": "同步",
+          "slug": "同步"
+        },
+        {
+          "level": 3,
+          "title": "互斥",
+          "slug": "互斥"
+        },
+        {
+          "level": 3,
+          "title": "信号量机制",
+          "slug": "信号量机制"
+        }
       ]
     },
     {
@@ -221,43 +451,9 @@ export const siteData = {
           "title": "部署记录",
           "slug": "部署记录"
         }
-      ]
-    },
-    {
-      "title": "初识pytroch",
-      "frontmatter": {
-        "title": "初识pytroch",
-        "tags": [
-          "pytroch"
-        ],
-        "categories": [
-          "pytroch"
-        ]
-      },
-      "regularPath": "/blogs/pytroch/pytroch.html",
-      "relativePath": "blogs/pytroch/pytroch.md",
-      "key": "v-376dbecb",
-      "path": "/blogs/pytroch/pytroch.html",
-      "lastUpdated": "2/25/2023, 4:38:18 PM",
-      "lastUpdatedTimestamp": 1677314298000
-    },
-    {
-      "title": "Opencv使用踩坑记录",
-      "frontmatter": {
-        "title": "Opencv使用踩坑记录",
-        "tags": [
-          "opencv",
-          "python",
-          "jetson nano"
-        ],
-        "categories": [
-          "jetson nano"
-        ]
-      },
-      "regularPath": "/blogs/jetson%20nano/opncv-python.html",
-      "relativePath": "blogs/jetson nano/opncv-python.md",
-      "key": "v-4685d024",
-      "path": "/blogs/jetson%20nano/opncv-python.html"
+      ],
+      "lastUpdated": "3/4/2023, 10:43:30 PM",
+      "lastUpdatedTimestamp": 1677941010000
     },
     {
       "title": "Vue",
@@ -316,6 +512,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "3D vision Tags"
+      },
+      "regularPath": "/tag/3D%20vision/",
+      "key": "v-2f092b9f",
+      "path": "/tag/3D vision/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "node Tags"
       },
       "regularPath": "/tag/node/",
@@ -325,20 +530,47 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "opencv Tags"
+      },
+      "regularPath": "/tag/opencv/",
+      "key": "v-bac21cb0",
+      "path": "/tag/opencv/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "python Tags"
+      },
+      "regularPath": "/tag/python/",
+      "key": "v-309cc62e",
+      "path": "/tag/python/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "jetson nano Tags"
+      },
+      "regularPath": "/tag/jetson%20nano/",
+      "key": "v-192d793b",
+      "path": "/tag/jetson nano/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "learnning reword Tags"
+      },
+      "regularPath": "/tag/learnning%20reword/",
+      "key": "v-0b1c14c6",
+      "path": "/tag/learnning reword/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "esp32 Tags"
       },
       "regularPath": "/tag/esp32/",
       "key": "v-8ae32fd0",
       "path": "/tag/esp32/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "3D vision Tags"
-      },
-      "regularPath": "/tag/3D%20vision/",
-      "key": "v-2f092b9f",
-      "path": "/tag/3D vision/"
     },
     {
       "frontmatter": {
@@ -361,11 +593,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "jetson nano Tags"
+        "title": "pytroch Tags"
       },
-      "regularPath": "/tag/jetson%20nano/",
-      "key": "v-192d793b",
-      "path": "/tag/jetson nano/"
+      "regularPath": "/tag/pytroch/",
+      "key": "v-0f0ec90c",
+      "path": "/tag/pytroch/"
     },
     {
       "frontmatter": {
@@ -387,48 +619,12 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "layout": "Tag",
-        "title": "pytroch Tags"
-      },
-      "regularPath": "/tag/pytroch/",
-      "key": "v-0f0ec90c",
-      "path": "/tag/pytroch/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "opencv Tags"
-      },
-      "regularPath": "/tag/opencv/",
-      "key": "v-bac21cb0",
-      "path": "/tag/opencv/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "python Tags"
-      },
-      "regularPath": "/tag/python/",
-      "key": "v-309cc62e",
-      "path": "/tag/python/"
-    },
-    {
-      "frontmatter": {
         "layout": "Category",
         "title": "3D vision Categories"
       },
       "regularPath": "/categories/3D%20vision/",
       "key": "v-d9029fda",
       "path": "/categories/3D vision/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "esp32 Categories"
-      },
-      "regularPath": "/categories/esp32/",
-      "key": "v-166558e8",
-      "path": "/categories/esp32/"
     },
     {
       "frontmatter": {
@@ -442,11 +638,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "web Categories"
+        "title": "Embedded Hardware Categories"
       },
-      "regularPath": "/categories/web/",
-      "key": "v-7f164d79",
-      "path": "/categories/web/"
+      "regularPath": "/categories/Embedded%20Hardware/",
+      "key": "v-68b501a8",
+      "path": "/categories/Embedded Hardware/"
     },
     {
       "frontmatter": {
@@ -456,6 +652,15 @@ export const siteData = {
       "regularPath": "/categories/pytroch/",
       "key": "v-957eb100",
       "path": "/categories/pytroch/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "web Categories"
+      },
+      "regularPath": "/categories/web/",
+      "key": "v-7f164d79",
+      "path": "/categories/web/"
     }
   ],
   "themeConfig": {
