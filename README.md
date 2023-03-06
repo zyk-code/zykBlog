@@ -22,7 +22,7 @@ isShowTitleInHome: false
 <style>
 /*整个背景 和 下拉动画*/ 
 body {
-  background-image: url('/background/bg.gif') 
+  background-image: url('/bg.gif') 
 }
 .navbar{
   display: relative

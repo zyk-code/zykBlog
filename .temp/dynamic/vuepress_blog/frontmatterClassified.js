@@ -3,12 +3,12 @@
  */
 export default {
   "tags": {
-    "node": {
-      "key": "node",
+    "3D vision": {
+      "key": "3D vision",
       "scope": "tags",
-      "path": "/tag/node/",
+      "path": "/tag/3D vision/",
       "pageKeys": [
-        "v-68e0875a"
+        "v-7374fd08"
       ]
     },
     "image": {
@@ -25,6 +25,14 @@ export default {
       "path": "/tag/esp32/",
       "pageKeys": [
         "v-5c7067f0"
+      ]
+    },
+    "node": {
+      "key": "node",
+      "scope": "tags",
+      "path": "/tag/node/",
+      "pageKeys": [
+        "v-68e0875a"
       ]
     },
     "opencv": {
@@ -59,14 +67,6 @@ export default {
       "pageKeys": [
         "v-30564cb6",
         "v-bfc1e6ea"
-      ]
-    },
-    "3D vision": {
-      "key": "3D vision",
-      "scope": "tags",
-      "path": "/tag/3D vision/",
-      "pageKeys": [
-        "v-7374fd08"
       ]
     },
     "qt": {
@@ -117,9 +117,9 @@ export default {
       "scope": "categories",
       "path": "/categories/3D vision/",
       "pageKeys": [
-        "v-68e0875a",
+        "v-7374fd08",
         "v-d2c4ce30",
-        "v-7374fd08"
+        "v-68e0875a"
       ]
     },
     "Embedded Hardware": {
@@ -140,6 +140,14 @@ export default {
         "v-6f983828"
       ]
     },
+    "pytroch": {
+      "key": "pytroch",
+      "scope": "categories",
+      "path": "/categories/pytroch/",
+      "pageKeys": [
+        "v-376dbecb"
+      ]
+    },
     "web": {
       "key": "web",
       "scope": "categories",
@@ -148,14 +156,6 @@ export default {
         "v-bfc1e6ea",
         "v-36f68f2b",
         "v-5030b44b"
-      ]
-    },
-    "pytroch": {
-      "key": "pytroch",
-      "scope": "categories",
-      "path": "/categories/pytroch/",
-      "pageKeys": [
-        "v-376dbecb"
       ]
     }
   },

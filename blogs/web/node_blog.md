@@ -43,8 +43,11 @@ categories:
 git init
 git add -A
 git commit -m '--first commit'
-git push -f git@github.com:用户名/仓库地址.git master:自定义分支名字
+git push -f git@github.com:用户名/仓库地址.git master:
+自定义分支名字
 ```
+主分支： git push -f git@github.com:zyk-code/zykBlog.git 
+gh-pages
 
  5、部署
     进入仓库的setting，选择pages选项
