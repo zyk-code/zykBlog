@@ -4,13 +4,13 @@
 export const siteData = {
   "title": "zyk space",
   "description": "",
-  "base": "/",
+  "base": "/zykBlog/",
   "headTags": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/favicon_1.ico"
+        "href": "/zykBlog/favicon.ico"
       }
     ],
     [
@@ -39,6 +39,36 @@ export const siteData = {
       "path": "/",
       "lastUpdated": "2/25/2023, 10:53:10 PM",
       "lastUpdatedTimestamp": 1677336790000
+    },
+    {
+      "title": "3D 相关的词解",
+      "frontmatter": {
+        "title": "3D 相关的词解",
+        "tags": [
+          "node"
+        ],
+        "categories": [
+          "3D vision"
+        ]
+      },
+      "regularPath": "/blogs/3D%20vision/word.html",
+      "relativePath": "blogs/3D vision/word.md",
+      "key": "v-68e0875a",
+      "path": "/blogs/3D%20vision/word.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "图像",
+          "slug": "图像"
+        },
+        {
+          "level": 2,
+          "title": "网络",
+          "slug": "网络"
+        }
+      ],
+      "lastUpdated": "3/4/2023, 10:43:30 PM",
+      "lastUpdatedTimestamp": 1677941010000
     },
     {
       "title": "卷积和池化",
@@ -72,63 +102,38 @@ export const siteData = {
           "slug": "池化的作用"
         }
       ],
-      "lastUpdated": "3/4/2023, 10:43:30 PM",
-      "lastUpdatedTimestamp": 1677941010000
+      "lastUpdated": "3/6/2023, 4:12:09 PM",
+      "lastUpdatedTimestamp": 1678090329000
     },
     {
-      "title": "3D视觉基础知识",
+      "title": "Esp32读取MPU6050",
       "frontmatter": {
-        "title": "3D视觉基础知识",
+        "title": "Esp32读取MPU6050",
         "tags": [
-          "3D vision"
+          "esp32"
         ],
         "categories": [
-          "3D vision"
+          "Embedded Hardware"
         ]
       },
-      "regularPath": "/blogs/3D%20vision/one.html",
-      "relativePath": "blogs/3D vision/one.md",
-      "key": "v-7374fd08",
-      "path": "/blogs/3D%20vision/one.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "三维空间的描述",
-          "slug": "三维空间的描述"
-        }
-      ],
-      "lastUpdated": "3/4/2023, 10:43:30 PM",
-      "lastUpdatedTimestamp": 1677941010000
-    },
-    {
-      "title": "3D 相关的词解",
-      "frontmatter": {
-        "title": "3D 相关的词解",
-        "tags": [
-          "node"
-        ],
-        "categories": [
-          "3D vision"
-        ]
-      },
-      "regularPath": "/blogs/3D%20vision/word.html",
-      "relativePath": "blogs/3D vision/word.md",
-      "key": "v-68e0875a",
-      "path": "/blogs/3D%20vision/word.html",
+      "regularPath": "/blogs/Embedded%20Hardware/mpu6050.html",
+      "relativePath": "blogs/Embedded Hardware/mpu6050.md",
+      "key": "v-5c7067f0",
+      "path": "/blogs/Embedded%20Hardware/mpu6050.html",
       "headers": [
         {
           "level": 2,
-          "title": "图像",
-          "slug": "图像"
+          "title": "陀螺仪",
+          "slug": "陀螺仪"
         },
         {
           "level": 2,
-          "title": "网络",
-          "slug": "网络"
+          "title": "MPU6050模块",
+          "slug": "mpu6050模块"
         }
       ],
-      "lastUpdated": "3/4/2023, 10:43:30 PM",
-      "lastUpdatedTimestamp": 1677941010000
+      "lastUpdated": "3/6/2023, 4:12:09 PM",
+      "lastUpdatedTimestamp": 1678090329000
     },
     {
       "title": "Opencv使用踩坑记录",
@@ -161,10 +166,10 @@ export const siteData = {
           "Embedded Hardware"
         ]
       },
-      "regularPath": "/blogs/Embedded%20Hardware/Embedded%20Hardware%20Learning%20Records.html",
-      "relativePath": "blogs/Embedded Hardware/Embedded Hardware Learning Records.md",
-      "key": "v-3e69159b",
-      "path": "/blogs/Embedded%20Hardware/Embedded%20Hardware%20Learning%20Records.html",
+      "regularPath": "/blogs/Embedded%20Hardware/Embedded_Hardware_Learning_Records.html",
+      "relativePath": "blogs/Embedded Hardware/Embedded_Hardware_Learning_Records.md",
+      "key": "v-30564cb6",
+      "path": "/blogs/Embedded%20Hardware/Embedded_Hardware_Learning_Records.html",
       "headers": [
         {
           "level": 3,
@@ -239,32 +244,29 @@ export const siteData = {
       ]
     },
     {
-      "title": "Esp32读取MPU6050",
+      "title": "3D视觉基础知识",
       "frontmatter": {
-        "title": "Esp32读取MPU6050",
+        "title": "3D视觉基础知识",
         "tags": [
-          "esp32"
+          "3D vision"
         ],
         "categories": [
-          "Embedded Hardware"
+          "3D vision"
         ]
       },
-      "regularPath": "/blogs/Embedded%20Hardware/mpu6050.html",
-      "relativePath": "blogs/Embedded Hardware/mpu6050.md",
-      "key": "v-5c7067f0",
-      "path": "/blogs/Embedded%20Hardware/mpu6050.html",
+      "regularPath": "/blogs/3D%20vision/one.html",
+      "relativePath": "blogs/3D vision/one.md",
+      "key": "v-7374fd08",
+      "path": "/blogs/3D%20vision/one.html",
       "headers": [
         {
-          "level": 2,
-          "title": "陀螺仪",
-          "slug": "陀螺仪"
-        },
-        {
-          "level": 2,
-          "title": "MPU6050模块",
-          "slug": "mpu6050模块"
+          "level": 3,
+          "title": "三维空间的描述",
+          "slug": "三维空间的描述"
         }
-      ]
+      ],
+      "lastUpdated": "3/4/2023, 10:43:30 PM",
+      "lastUpdatedTimestamp": 1677941010000
     },
     {
       "title": "jetson nano pycharm 下安装配置py-qt5",
@@ -302,24 +304,6 @@ export const siteData = {
       ],
       "lastUpdated": "3/4/2023, 10:43:30 PM",
       "lastUpdatedTimestamp": 1677941010000
-    },
-    {
-      "title": "初识pytroch",
-      "frontmatter": {
-        "title": "初识pytroch",
-        "tags": [
-          "pytroch"
-        ],
-        "categories": [
-          "pytroch"
-        ]
-      },
-      "regularPath": "/blogs/pytroch/pytroch.html",
-      "relativePath": "blogs/pytroch/pytroch.md",
-      "key": "v-376dbecb",
-      "path": "/blogs/pytroch/pytroch.html",
-      "lastUpdated": "2/25/2023, 4:38:18 PM",
-      "lastUpdatedTimestamp": 1677314298000
     },
     {
       "title": "计算机操作系统学习记录",
@@ -417,7 +401,27 @@ export const siteData = {
           "title": "信号量机制",
           "slug": "信号量机制"
         }
-      ]
+      ],
+      "lastUpdated": "3/6/2023, 4:12:09 PM",
+      "lastUpdatedTimestamp": 1678090329000
+    },
+    {
+      "title": "初识pytroch",
+      "frontmatter": {
+        "title": "初识pytroch",
+        "tags": [
+          "pytroch"
+        ],
+        "categories": [
+          "pytroch"
+        ]
+      },
+      "regularPath": "/blogs/pytroch/pytroch.html",
+      "relativePath": "blogs/pytroch/pytroch.md",
+      "key": "v-376dbecb",
+      "path": "/blogs/pytroch/pytroch.html",
+      "lastUpdated": "2/25/2023, 4:38:18 PM",
+      "lastUpdatedTimestamp": 1677314298000
     },
     {
       "title": "vuepress搭建blog记录",
@@ -503,6 +507,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "node Tags"
+      },
+      "regularPath": "/tag/node/",
+      "key": "v-14055bfa",
+      "path": "/tag/node/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "image Tags"
       },
       "regularPath": "/tag/image/",
@@ -512,20 +525,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "3D vision Tags"
+        "title": "esp32 Tags"
       },
-      "regularPath": "/tag/3D%20vision/",
-      "key": "v-2f092b9f",
-      "path": "/tag/3D vision/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "node Tags"
-      },
-      "regularPath": "/tag/node/",
-      "key": "v-14055bfa",
-      "path": "/tag/node/"
+      "regularPath": "/tag/esp32/",
+      "key": "v-8ae32fd0",
+      "path": "/tag/esp32/"
     },
     {
       "frontmatter": {
@@ -566,11 +570,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "esp32 Tags"
+        "title": "3D vision Tags"
       },
-      "regularPath": "/tag/esp32/",
-      "key": "v-8ae32fd0",
-      "path": "/tag/esp32/"
+      "regularPath": "/tag/3D%20vision/",
+      "key": "v-2f092b9f",
+      "path": "/tag/3D vision/"
     },
     {
       "frontmatter": {
@@ -629,15 +633,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "jetson nano Categories"
-      },
-      "regularPath": "/categories/jetson%20nano/",
-      "key": "v-3653b0af",
-      "path": "/categories/jetson nano/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
         "title": "Embedded Hardware Categories"
       },
       "regularPath": "/categories/Embedded%20Hardware/",
@@ -647,11 +642,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "pytroch Categories"
+        "title": "jetson nano Categories"
       },
-      "regularPath": "/categories/pytroch/",
-      "key": "v-957eb100",
-      "path": "/categories/pytroch/"
+      "regularPath": "/categories/jetson%20nano/",
+      "key": "v-3653b0af",
+      "path": "/categories/jetson nano/"
     },
     {
       "frontmatter": {
@@ -661,6 +656,15 @@ export const siteData = {
       "regularPath": "/categories/web/",
       "key": "v-7f164d79",
       "path": "/categories/web/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "pytroch Categories"
+      },
+      "regularPath": "/categories/pytroch/",
+      "key": "v-957eb100",
+      "path": "/categories/pytroch/"
     }
   ],
   "themeConfig": {

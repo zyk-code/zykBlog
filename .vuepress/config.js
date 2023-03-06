@@ -1,5 +1,5 @@
 module.exports = {
-  // base: '/zykBlog/',  // 打包部署需要选定仓库名
+  base: '/zykBlog/',  // 打包部署需要选定仓库名
   title: "zyk space",
   description: "",
   dest: "public",
@@ -8,7 +8,7 @@ module.exports = {
       "link",
       {
         "rel": "icon",
-        "href": "/favicon_1.ico"
+        "href": "/favicon.ico"
       }
     ],
     [

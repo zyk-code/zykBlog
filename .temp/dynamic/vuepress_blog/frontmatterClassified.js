@@ -3,6 +3,14 @@
  */
 export default {
   "tags": {
+    "node": {
+      "key": "node",
+      "scope": "tags",
+      "path": "/tag/node/",
+      "pageKeys": [
+        "v-68e0875a"
+      ]
+    },
     "image": {
       "key": "image",
       "scope": "tags",
@@ -11,20 +19,12 @@ export default {
         "v-d2c4ce30"
       ]
     },
-    "3D vision": {
-      "key": "3D vision",
+    "esp32": {
+      "key": "esp32",
       "scope": "tags",
-      "path": "/tag/3D vision/",
+      "path": "/tag/esp32/",
       "pageKeys": [
-        "v-7374fd08"
-      ]
-    },
-    "node": {
-      "key": "node",
-      "scope": "tags",
-      "path": "/tag/node/",
-      "pageKeys": [
-        "v-68e0875a"
+        "v-5c7067f0"
       ]
     },
     "opencv": {
@@ -57,16 +57,16 @@ export default {
       "scope": "tags",
       "path": "/tag/learnning reword/",
       "pageKeys": [
-        "v-3e69159b",
+        "v-30564cb6",
         "v-bfc1e6ea"
       ]
     },
-    "esp32": {
-      "key": "esp32",
+    "3D vision": {
+      "key": "3D vision",
       "scope": "tags",
-      "path": "/tag/esp32/",
+      "path": "/tag/3D vision/",
       "pageKeys": [
-        "v-5c7067f0"
+        "v-7374fd08"
       ]
     },
     "qt": {
@@ -117,9 +117,18 @@ export default {
       "scope": "categories",
       "path": "/categories/3D vision/",
       "pageKeys": [
+        "v-68e0875a",
         "v-d2c4ce30",
-        "v-7374fd08",
-        "v-68e0875a"
+        "v-7374fd08"
+      ]
+    },
+    "Embedded Hardware": {
+      "key": "Embedded Hardware",
+      "scope": "categories",
+      "path": "/categories/Embedded Hardware/",
+      "pageKeys": [
+        "v-5c7067f0",
+        "v-30564cb6"
       ]
     },
     "jetson nano": {
@@ -131,23 +140,6 @@ export default {
         "v-6f983828"
       ]
     },
-    "Embedded Hardware": {
-      "key": "Embedded Hardware",
-      "scope": "categories",
-      "path": "/categories/Embedded Hardware/",
-      "pageKeys": [
-        "v-3e69159b",
-        "v-5c7067f0"
-      ]
-    },
-    "pytroch": {
-      "key": "pytroch",
-      "scope": "categories",
-      "path": "/categories/pytroch/",
-      "pageKeys": [
-        "v-376dbecb"
-      ]
-    },
     "web": {
       "key": "web",
       "scope": "categories",
@@ -156,6 +148,14 @@ export default {
         "v-bfc1e6ea",
         "v-36f68f2b",
         "v-5030b44b"
+      ]
+    },
+    "pytroch": {
+      "key": "pytroch",
+      "scope": "categories",
+      "path": "/categories/pytroch/",
+      "pageKeys": [
+        "v-376dbecb"
       ]
     }
   },
