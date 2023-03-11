@@ -22,6 +22,7 @@ isShowTitleInHome: false
 <style>
 /*整个背景 和 下拉动画*/ 
 body {
+  /** 打包时补上base*/
   background-image: url('/bg.gif') 
 }
 .navbar{
@@ -92,5 +93,6 @@ export default {
       document.documentElement.scrollTop = windowH; // 滚动条滚动到指定位置
     }
   }
+
 }
 </script>

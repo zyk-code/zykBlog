@@ -3,15 +3,15 @@
  */
 export default {
   "v-0cb0f154": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\README.md"),
-  "v-7374fd08": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\3D vision\\one.md"),
   "v-d2c4ce30": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\3D vision\\conv_and_pool.md"),
   "v-5c7067f0": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\Embedded Hardware\\mpu6050.md"),
-  "v-68e0875a": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\3D vision\\word.md"),
-  "v-4685d024": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\jetson nano\\opncv-python.md"),
+  "v-7374fd08": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\3D vision\\one.md"),
   "v-30564cb6": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\Embedded Hardware\\Embedded_Hardware_Learning_Records.md"),
   "v-6f983828": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\jetson nano\\qt5Py.md"),
   "v-376dbecb": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\pytroch\\pytroch.md"),
-  "v-bfc1e6ea": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\web\\LearnningOS.md"),
+  "v-4685d024": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\jetson nano\\opncv-python.md"),
+  "v-68e0875a": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\3D vision\\word.md"),
   "v-36f68f2b": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\web\\node_blog.md"),
-  "v-5030b44b": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\web\\vue.md") 
+  "v-5030b44b": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\web\\vue.md"),
+  "v-bfc1e6ea": () => import("C:\\Users\\zouyo\\Desktop\\demo\\zykBlog\\blogs\\web\\LearnningOS.md") 
 }

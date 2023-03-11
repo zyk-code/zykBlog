@@ -21,22 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-7374fd08",
-    path: "/blogs/3D%20vision/one.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7374fd08").then(next)
-    },
-  },
-  {
-    path: "/blogs/3D vision/one.html",
-    redirect: "/blogs/3D%20vision/one.html"
-  },
-  {
-    path: "/blogs/3D vision/one.html",
-    redirect: "/blogs/3D%20vision/one.html"
-  },
-  {
     name: "v-d2c4ce30",
     path: "/blogs/3D%20vision/conv_and_pool.html",
     component: GlobalLayout,
@@ -69,36 +53,20 @@ export const routes = [
     redirect: "/blogs/Embedded%20Hardware/mpu6050.html"
   },
   {
-    name: "v-68e0875a",
-    path: "/blogs/3D%20vision/word.html",
+    name: "v-7374fd08",
+    path: "/blogs/3D%20vision/one.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-68e0875a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7374fd08").then(next)
     },
   },
   {
-    path: "/blogs/3D vision/word.html",
-    redirect: "/blogs/3D%20vision/word.html"
+    path: "/blogs/3D vision/one.html",
+    redirect: "/blogs/3D%20vision/one.html"
   },
   {
-    path: "/blogs/3D vision/word.html",
-    redirect: "/blogs/3D%20vision/word.html"
-  },
-  {
-    name: "v-4685d024",
-    path: "/blogs/jetson%20nano/opncv-python.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4685d024").then(next)
-    },
-  },
-  {
-    path: "/blogs/jetson nano/opncv-python.html",
-    redirect: "/blogs/jetson%20nano/opncv-python.html"
-  },
-  {
-    path: "/blogs/jetson nano/opncv-python.html",
-    redirect: "/blogs/jetson%20nano/opncv-python.html"
+    path: "/blogs/3D vision/one.html",
+    redirect: "/blogs/3D%20vision/one.html"
   },
   {
     name: "v-30564cb6",
@@ -141,12 +109,36 @@ export const routes = [
     },
   },
   {
-    name: "v-bfc1e6ea",
-    path: "/blogs/web/LearnningOS.html",
+    name: "v-4685d024",
+    path: "/blogs/jetson%20nano/opncv-python.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-bfc1e6ea").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4685d024").then(next)
     },
+  },
+  {
+    path: "/blogs/jetson nano/opncv-python.html",
+    redirect: "/blogs/jetson%20nano/opncv-python.html"
+  },
+  {
+    path: "/blogs/jetson nano/opncv-python.html",
+    redirect: "/blogs/jetson%20nano/opncv-python.html"
+  },
+  {
+    name: "v-68e0875a",
+    path: "/blogs/3D%20vision/word.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-68e0875a").then(next)
+    },
+  },
+  {
+    path: "/blogs/3D vision/word.html",
+    redirect: "/blogs/3D%20vision/word.html"
+  },
+  {
+    path: "/blogs/3D vision/word.html",
+    redirect: "/blogs/3D%20vision/word.html"
   },
   {
     name: "v-36f68f2b",
@@ -162,6 +154,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-5030b44b").then(next)
+    },
+  },
+  {
+    name: "v-bfc1e6ea",
+    path: "/blogs/web/LearnningOS.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-bfc1e6ea").then(next)
     },
   },
   {
@@ -204,19 +204,6 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
-    name: "v-2f092b9f",
-    path: "/tag/3D vision/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-2f092b9f").then(next)
-    },
-    meta: {"pid":"tags","id":"3D vision"}
-  },
-  {
-    path: "/tag/3D vision/index.html",
-    redirect: "/tag/3D vision/"
-  },
-  {
     name: "v-7df19544",
     path: "/tag/image/",
     component: GlobalLayout,
@@ -243,56 +230,17 @@ export const routes = [
     redirect: "/tag/esp32/"
   },
   {
-    name: "v-14055bfa",
-    path: "/tag/node/",
+    name: "v-2f092b9f",
+    path: "/tag/3D vision/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-14055bfa").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-2f092b9f").then(next)
     },
-    meta: {"pid":"tags","id":"node"}
+    meta: {"pid":"tags","id":"3D vision"}
   },
   {
-    path: "/tag/node/index.html",
-    redirect: "/tag/node/"
-  },
-  {
-    name: "v-bac21cb0",
-    path: "/tag/opencv/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-bac21cb0").then(next)
-    },
-    meta: {"pid":"tags","id":"opencv"}
-  },
-  {
-    path: "/tag/opencv/index.html",
-    redirect: "/tag/opencv/"
-  },
-  {
-    name: "v-309cc62e",
-    path: "/tag/python/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-309cc62e").then(next)
-    },
-    meta: {"pid":"tags","id":"python"}
-  },
-  {
-    path: "/tag/python/index.html",
-    redirect: "/tag/python/"
-  },
-  {
-    name: "v-192d793b",
-    path: "/tag/jetson nano/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-192d793b").then(next)
-    },
-    meta: {"pid":"tags","id":"jetson nano"}
-  },
-  {
-    path: "/tag/jetson nano/index.html",
-    redirect: "/tag/jetson nano/"
+    path: "/tag/3D vision/index.html",
+    redirect: "/tag/3D vision/"
   },
   {
     name: "v-0b1c14c6",
@@ -334,6 +282,19 @@ export const routes = [
     redirect: "/tag/ubuntu18/"
   },
   {
+    name: "v-192d793b",
+    path: "/tag/jetson nano/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-192d793b").then(next)
+    },
+    meta: {"pid":"tags","id":"jetson nano"}
+  },
+  {
+    path: "/tag/jetson nano/index.html",
+    redirect: "/tag/jetson nano/"
+  },
+  {
     name: "v-0f0ec90c",
     path: "/tag/pytroch/",
     component: GlobalLayout,
@@ -345,6 +306,45 @@ export const routes = [
   {
     path: "/tag/pytroch/index.html",
     redirect: "/tag/pytroch/"
+  },
+  {
+    name: "v-bac21cb0",
+    path: "/tag/opencv/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-bac21cb0").then(next)
+    },
+    meta: {"pid":"tags","id":"opencv"}
+  },
+  {
+    path: "/tag/opencv/index.html",
+    redirect: "/tag/opencv/"
+  },
+  {
+    name: "v-309cc62e",
+    path: "/tag/python/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-309cc62e").then(next)
+    },
+    meta: {"pid":"tags","id":"python"}
+  },
+  {
+    path: "/tag/python/index.html",
+    redirect: "/tag/python/"
+  },
+  {
+    name: "v-14055bfa",
+    path: "/tag/node/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-14055bfa").then(next)
+    },
+    meta: {"pid":"tags","id":"node"}
+  },
+  {
+    path: "/tag/node/index.html",
+    redirect: "/tag/node/"
   },
   {
     name: "v-dfb71430",
