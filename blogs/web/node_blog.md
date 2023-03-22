@@ -1,10 +1,10 @@
 ---
 title: vuepress搭建blog记录
+date: 2023/3/22
 tags:
   - vuepress
   - vue
-categories:
-  -  web
+categories: web
 ---
 
 ### 学习记录
@@ -18,9 +18,9 @@ categories:
    tags:
    - vuepress
    - vue
-   categories:
+      categories:
    -  web
-   ---
+---
 
 ### 部署记录
 
@@ -59,5 +59,16 @@ gh-pages
 若部署成功可在该页面有visit site选项在右上角
 或访问 https://用户名.github.io/仓库 成功
 ```
+###  模板
+
+```vue
+title: 
+date:
+tags:
+categorie：
+```
 
 
+
+
+### 目录分级管理

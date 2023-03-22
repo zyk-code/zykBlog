@@ -1,9 +1,9 @@
 ---
 title: 计算机操作系统学习记录
+date: 2023/3/22
 tags:
-  - learnning reword
-categories:
-  -  web
+  - learnning reword 
+categories: web
 ---
 # 第一章
 

@@ -1,9 +1,9 @@
 ---
 title: python 笔记
+date: 2023/3/22
 tags: 
   - python 
-categories:
-  -  python
+categories: python
 ---
 ## 小技巧和注意点
 
@@ -30,6 +30,38 @@ pip install KafkaProducer
 ```powershell
 pip install KafkaProducer --default-timeout=100 -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+7、conda点击图标闪退
+
+```powershell
+1.管理员权限运行anaconda prompt
+2.升级conda：
+conda update anaconda-navigator
+
+3.重置navigator: 
+anaconda-navigator --reset
+
+4.升级客户端：
+conda update anaconda-client
+
+5.升级安装依赖包：
+conda update -f anaconda-client
+
+6.再尝试打开anaconda
+
+7.如果上方出现更新较慢，可以添加镜像源，加快速度：
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+
+8.查看是否添加上源了：
+conda config --show（看channels属性下是否有上方添加的两个镜像了）
+
+9.如果镜像失效，删除镜像：
+conda config --remove channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+
+在cmd中输入Anaconda-Navigator启动
+```
+
 
 
 
@@ -57,6 +89,7 @@ pip install KafkaProducer --default-timeout=100 -i https://pypi.tuna.tsinghua.ed
 
 使用 import 与 from...import
 
+```python
 将整个模块(somemodule)导入，格式为： import somemodule
 
 从某个模块中导入某个函数,格式为： from somemodule import somefunction
@@ -64,6 +97,7 @@ pip install KafkaProducer --default-timeout=100 -i https://pypi.tuna.tsinghua.ed
 从某个模块中导入多个函数,格式为： from somemodule import firstfunc, secondfunc, thirdfunc
 
 将某个模块中的全部函数导入，格式为： from somemodule import *
+```
 
 ## 数据类型
 
@@ -202,6 +236,7 @@ pip install KafkaProducer --default-timeout=100 -i https://pypi.tuna.tsinghua.ed
     成员运算符使用 in  not in 来判断包括字符串，列表或元组中是否含有该成员
     
     身份运算符使用 is  not is 来比较两个对象的存储单元 可以使用id()函数获取存储单元
+## 装饰器
 
 ## 面向对象和类
 
@@ -209,6 +244,7 @@ class 各种通用
 
 类内调用初始化的参数，要使用self关键字，类似于把这些属性封装到了这个指定对象内部
 
+## 多进程
 
 ## 多线程
 Threading的包，python自带的

@@ -1,9 +1,9 @@
 ---
 title: 嵌入式学习记录
+date: 2022/8/1
 tags:
   - learnning reword
-categories:
-  -  Embedded Hardware
+categories: Embedded Hardware
 ---
 
 # 一些专业名称

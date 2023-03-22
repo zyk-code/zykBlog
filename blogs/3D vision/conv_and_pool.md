@@ -1,9 +1,9 @@
 ---
 title: 卷积和池化
+date: 2023/3/10
 tags:
   - image
-categories:
-  -  3D vision
+categories: 3D vision
 ---
 
 #### 卷积

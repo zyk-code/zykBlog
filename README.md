@@ -23,7 +23,7 @@ isShowTitleInHome: false
 /*整个背景 和 下拉动画*/ 
 body {
   /** 打包时补上base*/
-  background-image: url('/bg.gif') 
+  background-image: url('/zykBlog/bg.gif') 
 }
 .navbar{
   display: relative

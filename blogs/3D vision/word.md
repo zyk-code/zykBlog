@@ -2,8 +2,7 @@
 title: 3D 相关的词解
 tags:
   - node
-categories:
-  -  3D vision
+categories: 3D vision
 ---
 
 ## 图像
@@ -14,13 +13,18 @@ FV -- 前视图
 体素
 
 ## 网络
-3dconv -- 3D 卷积
+3d conv -- 3D 卷积
 MaxPool3D -- 3D池化
-SSD -- 随机梯度下降
+SGD -- 随机梯度下降
 BackBone -- yolo的图像处理（卷积和池化）
+layer -- 层
+keril
 
 ## yolo & 3d
 开源的YOLO-6D，Complex-YOLOv4
+
+Backbone
+necK
 
 ### Complex yolov4 
 基于三维投影的深度学习算法 

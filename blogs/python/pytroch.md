@@ -1,10 +1,10 @@
 ---
 title: 初识pytroch
+date: 2023/3/22
 tags: 
   - python 
   - pytroch
-categories:
-  -  python
+categories: python
 ---
 
 ## 环境配置

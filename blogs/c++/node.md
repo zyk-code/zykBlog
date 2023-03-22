@@ -1,9 +1,9 @@
 ---
 title: c++ 学习记录
+date: 2022/10/10
 tags: 
   - c++  
-categories:
-  -  c++
+categories: c++
 ---
 
 ## C++语法

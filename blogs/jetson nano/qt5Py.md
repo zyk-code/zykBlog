@@ -1,11 +1,11 @@
 ---
 title: jetson nano pycharm 下安装配置py-qt5
+date: 2023/3/18
 tags:
   - qt
   - ubuntu18
   - jetson nano
-categories:
-  -  jetson nano
+categories: jetson nano
 ---
 
 ## py-qt5 及 依赖的安装

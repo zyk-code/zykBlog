@@ -2,8 +2,7 @@
 title: 3D视觉基础知识
 tags:
   - 3D vision
-categories:
-  -  3D vision
+categories: 3D vision
 ---
 
 # 3D视觉基础知识
