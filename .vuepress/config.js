@@ -17,7 +17,7 @@ module.exports = {
         "name": "viewport",
         "content": "width=device-width,initial-scale=1,user-scalable=no"
       }
-    ]
+    ],
   ],
   theme: "reco",
   themeConfig: {
@@ -82,5 +82,11 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  
+  extendMarkdown(md) {
+    md.use(require('markdown-it-mathjax3'))
+    md.linkify.set({ fuzzyEmail: false })
+  },
 }
+

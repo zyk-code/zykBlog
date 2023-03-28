@@ -1,6 +1,6 @@
 ---
-title: jetson nano pycharm 下安装配置py-qt5
-date: 2023/3/18
+title: jetson nano 的ubuntu使用记录
+date: 2023/3/28
 tags:
   - qt
   - ubuntu18
@@ -8,23 +8,6 @@ tags:
 categories: jetson nano
 ---
 
-## py-qt5 及 依赖的安装
-
-1、安装pyqt5
-
-```powershell
-pip3 install pyqt5 -i https://pypi.douban.com/simple
-```
-
-2、安装依赖
-
-```powershell
-sudo apt install pyqt5*
-```
-
-3、安装Designer
-
-sudo apt install qttools5-dev-tools
 
 ## pycharm 安装（注意 是arm 64）
 
@@ -83,7 +66,26 @@ Categories=Pycharm;
 
 ```
 
-## pycharm配置QtDesigner
+## py-qt5
+#### py-qt5 及 依赖的安装
+
+1、安装pyqt5
+
+```powershell
+pip3 install pyqt5 -i https://pypi.douban.com/simple
+```
+
+2、安装依赖
+
+```powershell
+sudo apt install pyqt5*
+```
+
+3、安装Designer
+
+sudo apt install qttools5-dev-tools
+
+#### pycharm配置QtDesigner
 
 1、创建一个空项目，并打开设置
 
@@ -102,4 +104,32 @@ Categories=Pycharm;
 参考：
 
 [https://blog.csdn.net/FL1623863129/article/details/126004013](https://blog.csdn.net/FL1623863129/article/details/126004013)
+
+## minconda
+
+1、下载安装包
+https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-aarch64.sh
+
+2、在cmd进入下载好的.sh文件目录中启动文件
+
+```shell
+bash Anaconda3-2021.05-Linux-aarch64.sh
+```
+
+然后回车和yes(init可以选no然后修改安装的路径，最后不要这样做)
+
+3、新建cmd,进入root用户，然后编辑环境变量 (注意路径，jetson nano会有一层jetson)
+
+```shell
+vi ~/.bashrc
+#conda env 
+export PATH="/home/jetson/anaconda3/bin:"$PATH
+```
+
+4、刷新bash文件和新建cmd查看minconda的版本
+
+```shell
+source ~/.bashrc
+conda --verion
+```
 

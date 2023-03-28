@@ -3,19 +3,20 @@
  */
 export default {
   "v-2e6b2d69": () => import("D:\\object\\vue\\zykBlog\\README.md"),
+  "v-33a69e2a": () => import("D:\\object\\vue\\zykBlog\\blogs\\3D vision\\DL.md"),
   "v-97bb6a16": () => import("D:\\object\\vue\\zykBlog\\blogs\\3D vision\\conv_and_pool.md"),
-  "v-1abb7795": () => import("D:\\object\\vue\\zykBlog\\blogs\\3D vision\\one.md"),
+  "v-47ed80b7": () => import("D:\\object\\vue\\zykBlog\\blogs\\3D vision\\node.md"),
+  "v-3b1836fa": () => import("D:\\object\\vue\\zykBlog\\blogs\\Embedded Hardware\\Embedded_Hardware_Learning_Records.md"),
   "v-5a5aaf95": () => import("D:\\object\\vue\\zykBlog\\blogs\\Embedded Hardware\\mpu6050.md"),
   "v-587292a7": () => import("D:\\object\\vue\\zykBlog\\blogs\\3D vision\\word.md"),
-  "v-3b1836fa": () => import("D:\\object\\vue\\zykBlog\\blogs\\Embedded Hardware\\Embedded_Hardware_Learning_Records.md"),
-  "v-324f94e8": () => import("D:\\object\\vue\\zykBlog\\blogs\\c++\\node.md"),
-  "v-91145496": () => import("D:\\object\\vue\\zykBlog\\blogs\\jetson nano\\qt5Py.md"),
+  "v-b44dff02": () => import("D:\\object\\vue\\zykBlog\\blogs\\jetson nano\\node.md"),
   "v-15a632f1": () => import("D:\\object\\vue\\zykBlog\\blogs\\jetson nano\\opncv-python.md"),
-  "v-0620935c": () => import("D:\\object\\vue\\zykBlog\\blogs\\python\\DL.md"),
+  "v-324f94e8": () => import("D:\\object\\vue\\zykBlog\\blogs\\c++\\node.md"),
   "v-43ee007e": () => import("D:\\object\\vue\\zykBlog\\blogs\\python\\python_node.md"),
-  "v-5d52d5ae": () => import("D:\\object\\vue\\zykBlog\\blogs\\python\\pytroch.md"),
+  "v-e14db1cc": () => import("D:\\object\\vue\\zykBlog\\blogs\\papers\\k-means.md"),
   "v-e09dd050": () => import("D:\\object\\vue\\zykBlog\\blogs\\web\\LearnningOS.md"),
+  "v-5d52d5ae": () => import("D:\\object\\vue\\zykBlog\\blogs\\python\\pytroch.md"),
   "v-518e1fb8": () => import("D:\\object\\vue\\zykBlog\\blogs\\web\\LernningNetWork.md"),
-  "v-ca776e10": () => import("D:\\object\\vue\\zykBlog\\blogs\\web\\node_blog.md"),
-  "v-08560cd0": () => import("D:\\object\\vue\\zykBlog\\blogs\\web\\vue.md") 
+  "v-08560cd0": () => import("D:\\object\\vue\\zykBlog\\blogs\\web\\vue.md"),
+  "v-ca776e10": () => import("D:\\object\\vue\\zykBlog\\blogs\\web\\node_blog.md") 
 }

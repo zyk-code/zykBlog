@@ -5,7 +5,7 @@ tags:
   - python 
   - DL
   - CNN 
-categories: python
+categories: 3D vision
 ---
 ## Tensorflow安装
 

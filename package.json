@@ -10,5 +10,9 @@
     "vuepress": "1.9.7",
     "vuepress-theme-reco": "1.6.16"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-mathjax3": "^4.3.2"
+  }
 }

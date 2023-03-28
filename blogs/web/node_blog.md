@@ -31,7 +31,7 @@ categories: web
     npm run build
     完成后会生成public文件夹
 
- 3、添加 deploy.sh在项目的根目录下
+ 3、添加 deploy.sh在项目的根目录下(部署文件)
     然后在cmd 运行 set -e  # 抛出异常即是完成
 
  4、推送到自定义分支上
@@ -66,6 +66,23 @@ title:
 date:
 tags:
 categorie：
+```
+
+### 公式插件
+
+1、安装插件markdown-it markdown-it-mathjax3
+
+```shell
+npm install markdown-it markdown-it-mathjax3
+```
+
+2、配置插件（在.vuepress/config.js下）
+
+```javascript
+extendMarkdown(md) {
+    md.use(require('markdown-it-mathjax3'))
+    md.linkify.set({ fuzzyEmail: false })
+  },
 ```
 
 

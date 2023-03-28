@@ -3,10 +3,37 @@
  */
 export default {
   "tags": {
-    "image": {
-      "key": "image",
+    "python": {
+      "key": "python",
       "scope": "tags",
-      "path": "/tag/image/",
+      "path": "/tag/python/",
+      "pageKeys": [
+        "v-33a69e2a",
+        "v-15a632f1",
+        "v-43ee007e",
+        "v-5d52d5ae"
+      ]
+    },
+    "DL": {
+      "key": "DL",
+      "scope": "tags",
+      "path": "/tag/DL/",
+      "pageKeys": [
+        "v-33a69e2a"
+      ]
+    },
+    "CNN": {
+      "key": "CNN",
+      "scope": "tags",
+      "path": "/tag/CNN/",
+      "pageKeys": [
+        "v-33a69e2a"
+      ]
+    },
+    "cnn": {
+      "key": "cnn",
+      "scope": "tags",
+      "path": "/tag/cnn/",
       "pageKeys": [
         "v-97bb6a16"
       ]
@@ -16,7 +43,16 @@ export default {
       "scope": "tags",
       "path": "/tag/3D vision/",
       "pageKeys": [
-        "v-1abb7795"
+        "v-47ed80b7"
+      ]
+    },
+    "learnning reword": {
+      "key": "learnning reword",
+      "scope": "tags",
+      "path": "/tag/learnning reword/",
+      "pageKeys": [
+        "v-3b1836fa",
+        "v-e09dd050"
       ]
     },
     "esp32": {
@@ -35,29 +71,12 @@ export default {
         "v-587292a7"
       ]
     },
-    "learnning reword": {
-      "key": "learnning reword",
-      "scope": "tags",
-      "path": "/tag/learnning reword/",
-      "pageKeys": [
-        "v-3b1836fa",
-        "v-e09dd050"
-      ]
-    },
-    "c++": {
-      "key": "c++",
-      "scope": "tags",
-      "path": "/tag/c++/",
-      "pageKeys": [
-        "v-324f94e8"
-      ]
-    },
     "qt": {
       "key": "qt",
       "scope": "tags",
       "path": "/tag/qt/",
       "pageKeys": [
-        "v-91145496"
+        "v-b44dff02"
       ]
     },
     "ubuntu18": {
@@ -65,7 +84,7 @@ export default {
       "scope": "tags",
       "path": "/tag/ubuntu18/",
       "pageKeys": [
-        "v-91145496"
+        "v-b44dff02"
       ]
     },
     "jetson nano": {
@@ -73,7 +92,7 @@ export default {
       "scope": "tags",
       "path": "/tag/jetson nano/",
       "pageKeys": [
-        "v-91145496",
+        "v-b44dff02",
         "v-15a632f1"
       ]
     },
@@ -85,31 +104,20 @@ export default {
         "v-15a632f1"
       ]
     },
-    "python": {
-      "key": "python",
+    "c++": {
+      "key": "c++",
       "scope": "tags",
-      "path": "/tag/python/",
+      "path": "/tag/c++/",
       "pageKeys": [
-        "v-15a632f1",
-        "v-0620935c",
-        "v-43ee007e",
-        "v-5d52d5ae"
+        "v-324f94e8"
       ]
     },
-    "DL": {
-      "key": "DL",
+    "聚类": {
+      "key": "聚类",
       "scope": "tags",
-      "path": "/tag/DL/",
+      "path": "/tag/聚类/",
       "pageKeys": [
-        "v-0620935c"
-      ]
-    },
-    "CNN": {
-      "key": "CNN",
-      "scope": "tags",
-      "path": "/tag/CNN/",
-      "pageKeys": [
-        "v-0620935c"
+        "v-e14db1cc"
       ]
     },
     "pytroch": {
@@ -128,21 +136,21 @@ export default {
         "v-518e1fb8"
       ]
     },
+    "vue": {
+      "key": "vue",
+      "scope": "tags",
+      "path": "/tag/vue/",
+      "pageKeys": [
+        "v-08560cd0",
+        "v-ca776e10"
+      ]
+    },
     "vuepress": {
       "key": "vuepress",
       "scope": "tags",
       "path": "/tag/vuepress/",
       "pageKeys": [
         "v-ca776e10"
-      ]
-    },
-    "vue": {
-      "key": "vue",
-      "scope": "tags",
-      "path": "/tag/vue/",
-      "pageKeys": [
-        "v-ca776e10",
-        "v-08560cd0"
       ]
     }
   },
@@ -152,8 +160,9 @@ export default {
       "scope": "categories",
       "path": "/categories/3D vision/",
       "pageKeys": [
+        "v-33a69e2a",
         "v-97bb6a16",
-        "v-1abb7795",
+        "v-47ed80b7",
         "v-587292a7"
       ]
     },
@@ -162,8 +171,17 @@ export default {
       "scope": "categories",
       "path": "/categories/Embedded Hardware/",
       "pageKeys": [
-        "v-5a5aaf95",
-        "v-3b1836fa"
+        "v-3b1836fa",
+        "v-5a5aaf95"
+      ]
+    },
+    "jetson nano": {
+      "key": "jetson nano",
+      "scope": "categories",
+      "path": "/categories/jetson nano/",
+      "pageKeys": [
+        "v-b44dff02",
+        "v-15a632f1"
       ]
     },
     "c++": {
@@ -174,23 +192,21 @@ export default {
         "v-324f94e8"
       ]
     },
-    "jetson nano": {
-      "key": "jetson nano",
-      "scope": "categories",
-      "path": "/categories/jetson nano/",
-      "pageKeys": [
-        "v-91145496",
-        "v-15a632f1"
-      ]
-    },
     "python": {
       "key": "python",
       "scope": "categories",
       "path": "/categories/python/",
       "pageKeys": [
-        "v-0620935c",
         "v-43ee007e",
         "v-5d52d5ae"
+      ]
+    },
+    "papers": {
+      "key": "papers",
+      "scope": "categories",
+      "path": "/categories/papers/",
+      "pageKeys": [
+        "v-e14db1cc"
       ]
     },
     "web": {
@@ -200,8 +216,8 @@ export default {
       "pageKeys": [
         "v-e09dd050",
         "v-518e1fb8",
-        "v-ca776e10",
-        "v-08560cd0"
+        "v-08560cd0",
+        "v-ca776e10"
       ]
     }
   },

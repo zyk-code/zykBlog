@@ -212,6 +212,17 @@ conda config --remove channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
         print(type(d))
         # {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
         # <class 'dict'>
+## 运算符号
+
+    是有优先级的
+    和c相比特殊的地方
+    计算和比较、赋值、位运算、逻辑运算符号外
+    
+    逻辑运算使用的 and or not 去代表与或非  这个应用在判断条件上
+    
+    成员运算符使用 in  not in 来判断包括字符串，列表或元组中是否含有该成员
+    
+    身份运算符使用 is  not is 来比较两个对象的存储单元 可以使用id()函数获取存储单元
 
 ## 解释器
 
@@ -225,18 +236,23 @@ conda config --remove channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
     
     PyPy 是 Python 语言（2.7.13和3.5.3）的一种快速、兼容的替代实现（http://pypy.org/），以速度快著称
 
-## 运算符号
+## 迭代器
+优雅的访问set和需要循环的列表等
 
-    是有优先级的
-    和c相比特殊的地方
-    计算和比较、赋值、位运算、逻辑运算符号外
-    
-    逻辑运算使用的 and or not 去代表与或非  这个应用在判断条件上
-    
-    成员运算符使用 in  not in 来判断包括字符串，列表或元组中是否含有该成员
-    
-    身份运算符使用 is  not is 来比较两个对象的存储单元 可以使用id()函数获取存储单元
+一个迭代器类需要有: iter和next
+
+__iter__() 方法返回一个特殊的迭代器对象， 这个迭代器对象实现了 __next__() 方法并通过 StopIteration 异常标识迭代的完成。
+
+__next__() 方法（Python 2 里是 next()）会返回下一个迭代器对象。
+
+StopIteration是异常用于标识迭代的完成
+
+## 生成器
+
 ## 装饰器
+@
+python装饰器本质上是一个函数，可以让其他函数在不需要做任何代码变动的前提下添加额外功能，
+装饰器的返回值也是一个函数对象。简单的说装饰器就是一个用来返回函数的函数。
 
 ## 面向对象和类
 
@@ -245,19 +261,43 @@ class 各种通用
 类内调用初始化的参数，要使用self关键字，类似于把这些属性封装到了这个指定对象内部
 
 ## 多进程
+multiprocessing包 Process类
+```python
+from multiprocessing import Process
+
+def fun():
+    print("text Process")
+
+Process_text = Process(target = fun)
+
+Process_text.start() # 开始进程
+
+```
 
 ## 多线程
-Threading的包，python自带的
+Threading的包 中的threading类，python自带的
 ```python
-import threading
+from threading import Thread
 
 def fun():
     print("text threading")
 
-thread_text = threading.Thread(target = fun)
+thread_text = Thread(target = fun)
 
 thread_text.start() # 开始线程，每个线程只能开始一次
 threading.enumerate() # 查看当前线程池，返回list
 
 ```
 线程的结束是内部run()，即被cpu执行完毕。如何下次要start，可以重新写一个线程，前面的会被python自动回收
+
+## 锁
+### 死锁
+
+
+### 互斥锁
+
+
+### 递归锁
+
+
+### 信号量
