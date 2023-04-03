@@ -3,17 +3,6 @@
  */
 export default {
   "tags": {
-    "python": {
-      "key": "python",
-      "scope": "tags",
-      "path": "/tag/python/",
-      "pageKeys": [
-        "v-33a69e2a",
-        "v-15a632f1",
-        "v-43ee007e",
-        "v-5d52d5ae"
-      ]
-    },
     "DL": {
       "key": "DL",
       "scope": "tags",
@@ -22,45 +11,31 @@ export default {
         "v-33a69e2a"
       ]
     },
+    "python": {
+      "key": "python",
+      "scope": "tags",
+      "path": "/tag/python/",
+      "pageKeys": [
+        "v-7e73d07d",
+        "v-32633d92",
+        "v-37896e5c",
+        "v-5d52d5ae"
+      ]
+    },
+    "ML": {
+      "key": "ML",
+      "scope": "tags",
+      "path": "/tag/ML/",
+      "pageKeys": [
+        "v-7e73d07d"
+      ]
+    },
     "CNN": {
       "key": "CNN",
       "scope": "tags",
       "path": "/tag/CNN/",
       "pageKeys": [
-        "v-33a69e2a"
-      ]
-    },
-    "cnn": {
-      "key": "cnn",
-      "scope": "tags",
-      "path": "/tag/cnn/",
-      "pageKeys": [
-        "v-97bb6a16"
-      ]
-    },
-    "3D vision": {
-      "key": "3D vision",
-      "scope": "tags",
-      "path": "/tag/3D vision/",
-      "pageKeys": [
-        "v-47ed80b7"
-      ]
-    },
-    "learnning reword": {
-      "key": "learnning reword",
-      "scope": "tags",
-      "path": "/tag/learnning reword/",
-      "pageKeys": [
-        "v-3b1836fa",
-        "v-e09dd050"
-      ]
-    },
-    "esp32": {
-      "key": "esp32",
-      "scope": "tags",
-      "path": "/tag/esp32/",
-      "pageKeys": [
-        "v-5a5aaf95"
+        "v-7e73d07d"
       ]
     },
     "node": {
@@ -71,29 +46,37 @@ export default {
         "v-587292a7"
       ]
     },
-    "qt": {
-      "key": "qt",
+    "3D vision": {
+      "key": "3D vision",
       "scope": "tags",
-      "path": "/tag/qt/",
+      "path": "/tag/3D vision/",
       "pageKeys": [
-        "v-b44dff02"
+        "v-47ed80b7"
       ]
     },
-    "ubuntu18": {
-      "key": "ubuntu18",
+    "cnn": {
+      "key": "cnn",
       "scope": "tags",
-      "path": "/tag/ubuntu18/",
+      "path": "/tag/cnn/",
       "pageKeys": [
-        "v-b44dff02"
+        "v-97bb6a16"
       ]
     },
-    "jetson nano": {
-      "key": "jetson nano",
+    "Stm32": {
+      "key": "Stm32",
       "scope": "tags",
-      "path": "/tag/jetson nano/",
+      "path": "/tag/Stm32/",
       "pageKeys": [
-        "v-b44dff02",
-        "v-15a632f1"
+        "v-a06f1f56"
+      ]
+    },
+    "learnning reword": {
+      "key": "learnning reword",
+      "scope": "tags",
+      "path": "/tag/learnning reword/",
+      "pageKeys": [
+        "v-96de5956",
+        "v-e09dd050"
       ]
     },
     "opencv": {
@@ -101,23 +84,32 @@ export default {
       "scope": "tags",
       "path": "/tag/opencv/",
       "pageKeys": [
-        "v-15a632f1"
+        "v-32633d92"
       ]
     },
-    "c++": {
-      "key": "c++",
+    "jetson nano": {
+      "key": "jetson nano",
       "scope": "tags",
-      "path": "/tag/c++/",
+      "path": "/tag/jetson nano/",
       "pageKeys": [
-        "v-324f94e8"
+        "v-32633d92",
+        "v-362f0416"
       ]
     },
-    "聚类": {
-      "key": "聚类",
+    "qt": {
+      "key": "qt",
       "scope": "tags",
-      "path": "/tag/聚类/",
+      "path": "/tag/qt/",
       "pageKeys": [
-        "v-e14db1cc"
+        "v-362f0416"
+      ]
+    },
+    "ubuntu18": {
+      "key": "ubuntu18",
+      "scope": "tags",
+      "path": "/tag/ubuntu18/",
+      "pageKeys": [
+        "v-362f0416"
       ]
     },
     "pytroch": {
@@ -128,6 +120,22 @@ export default {
         "v-5d52d5ae"
       ]
     },
+    "聚类": {
+      "key": "聚类",
+      "scope": "tags",
+      "path": "/tag/聚类/",
+      "pageKeys": [
+        "v-e14db1cc"
+      ]
+    },
+    "c++": {
+      "key": "c++",
+      "scope": "tags",
+      "path": "/tag/c++/",
+      "pageKeys": [
+        "v-324f94e8"
+      ]
+    },
     "net work": {
       "key": "net work",
       "scope": "tags",
@@ -136,21 +144,21 @@ export default {
         "v-518e1fb8"
       ]
     },
-    "vue": {
-      "key": "vue",
-      "scope": "tags",
-      "path": "/tag/vue/",
-      "pageKeys": [
-        "v-08560cd0",
-        "v-ca776e10"
-      ]
-    },
     "vuepress": {
       "key": "vuepress",
       "scope": "tags",
       "path": "/tag/vuepress/",
       "pageKeys": [
         "v-ca776e10"
+      ]
+    },
+    "vue": {
+      "key": "vue",
+      "scope": "tags",
+      "path": "/tag/vue/",
+      "pageKeys": [
+        "v-ca776e10",
+        "v-08560cd0"
       ]
     }
   },
@@ -161,9 +169,10 @@ export default {
       "path": "/categories/3D vision/",
       "pageKeys": [
         "v-33a69e2a",
-        "v-97bb6a16",
+        "v-7e73d07d",
+        "v-587292a7",
         "v-47ed80b7",
-        "v-587292a7"
+        "v-97bb6a16"
       ]
     },
     "Embedded Hardware": {
@@ -171,8 +180,10 @@ export default {
       "scope": "categories",
       "path": "/categories/Embedded Hardware/",
       "pageKeys": [
-        "v-3b1836fa",
-        "v-5a5aaf95"
+        "v-6f309815",
+        "v-a06f1f56",
+        "v-96de5956",
+        "v-362f0416"
       ]
     },
     "jetson nano": {
@@ -180,16 +191,7 @@ export default {
       "scope": "categories",
       "path": "/categories/jetson nano/",
       "pageKeys": [
-        "v-b44dff02",
-        "v-15a632f1"
-      ]
-    },
-    "c++": {
-      "key": "c++",
-      "scope": "categories",
-      "path": "/categories/c++/",
-      "pageKeys": [
-        "v-324f94e8"
+        "v-32633d92"
       ]
     },
     "python": {
@@ -197,7 +199,7 @@ export default {
       "scope": "categories",
       "path": "/categories/python/",
       "pageKeys": [
-        "v-43ee007e",
+        "v-37896e5c",
         "v-5d52d5ae"
       ]
     },
@@ -209,15 +211,23 @@ export default {
         "v-e14db1cc"
       ]
     },
+    "c++": {
+      "key": "c++",
+      "scope": "categories",
+      "path": "/categories/c++/",
+      "pageKeys": [
+        "v-324f94e8"
+      ]
+    },
     "web": {
       "key": "web",
       "scope": "categories",
       "path": "/categories/web/",
       "pageKeys": [
-        "v-e09dd050",
         "v-518e1fb8",
-        "v-08560cd0",
-        "v-ca776e10"
+        "v-e09dd050",
+        "v-ca776e10",
+        "v-08560cd0"
       ]
     }
   },

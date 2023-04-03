@@ -9,18 +9,6 @@ import GlobalLayout from "D:\\object\\vue\\zykBlog\\node_modules\\@vuepress\\cor
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-2e6b2d69",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2e6b2d69").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-33a69e2a",
     path: "/blogs/3D%20vision/DL.html",
     component: GlobalLayout,
@@ -37,68 +25,32 @@ export const routes = [
     redirect: "/blogs/3D%20vision/DL.html"
   },
   {
-    name: "v-97bb6a16",
-    path: "/blogs/3D%20vision/conv_and_pool.html",
+    name: "v-7e73d07d",
+    path: "/blogs/3D%20vision/ML.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-97bb6a16").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7e73d07d").then(next)
     },
   },
   {
-    path: "/blogs/3D vision/conv_and_pool.html",
-    redirect: "/blogs/3D%20vision/conv_and_pool.html"
+    path: "/blogs/3D vision/ML.html",
+    redirect: "/blogs/3D%20vision/ML.html"
   },
   {
-    path: "/blogs/3D vision/conv_and_pool.html",
-    redirect: "/blogs/3D%20vision/conv_and_pool.html"
+    path: "/blogs/3D vision/ML.html",
+    redirect: "/blogs/3D%20vision/ML.html"
   },
   {
-    name: "v-47ed80b7",
-    path: "/blogs/3D%20vision/node.html",
+    name: "v-2e6b2d69",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-47ed80b7").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2e6b2d69").then(next)
     },
   },
   {
-    path: "/blogs/3D vision/node.html",
-    redirect: "/blogs/3D%20vision/node.html"
-  },
-  {
-    path: "/blogs/3D vision/node.html",
-    redirect: "/blogs/3D%20vision/node.html"
-  },
-  {
-    name: "v-3b1836fa",
-    path: "/blogs/Embedded%20Hardware/Embedded_Hardware_Learning_Records.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3b1836fa").then(next)
-    },
-  },
-  {
-    path: "/blogs/Embedded Hardware/Embedded_Hardware_Learning_Records.html",
-    redirect: "/blogs/Embedded%20Hardware/Embedded_Hardware_Learning_Records.html"
-  },
-  {
-    path: "/blogs/Embedded Hardware/Embedded_Hardware_Learning_Records.html",
-    redirect: "/blogs/Embedded%20Hardware/Embedded_Hardware_Learning_Records.html"
-  },
-  {
-    name: "v-5a5aaf95",
-    path: "/blogs/Embedded%20Hardware/mpu6050.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5a5aaf95").then(next)
-    },
-  },
-  {
-    path: "/blogs/Embedded Hardware/mpu6050.html",
-    redirect: "/blogs/Embedded%20Hardware/mpu6050.html"
-  },
-  {
-    path: "/blogs/Embedded Hardware/mpu6050.html",
-    redirect: "/blogs/Embedded%20Hardware/mpu6050.html"
+    path: "/index.html",
+    redirect: "/"
   },
   {
     name: "v-587292a7",
@@ -117,67 +69,123 @@ export const routes = [
     redirect: "/blogs/3D%20vision/word.html"
   },
   {
-    name: "v-b44dff02",
-    path: "/blogs/jetson%20nano/node.html",
+    name: "v-47ed80b7",
+    path: "/blogs/3D%20vision/node.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b44dff02").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-47ed80b7").then(next)
     },
   },
   {
-    path: "/blogs/jetson nano/node.html",
-    redirect: "/blogs/jetson%20nano/node.html"
+    path: "/blogs/3D vision/node.html",
+    redirect: "/blogs/3D%20vision/node.html"
   },
   {
-    path: "/blogs/jetson nano/node.html",
-    redirect: "/blogs/jetson%20nano/node.html"
+    path: "/blogs/3D vision/node.html",
+    redirect: "/blogs/3D%20vision/node.html"
   },
   {
-    name: "v-15a632f1",
-    path: "/blogs/jetson%20nano/opncv-python.html",
+    name: "v-97bb6a16",
+    path: "/blogs/3D%20vision/conv_and_pool.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-15a632f1").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-97bb6a16").then(next)
     },
   },
   {
-    path: "/blogs/jetson nano/opncv-python.html",
-    redirect: "/blogs/jetson%20nano/opncv-python.html"
+    path: "/blogs/3D vision/conv_and_pool.html",
+    redirect: "/blogs/3D%20vision/conv_and_pool.html"
   },
   {
-    path: "/blogs/jetson nano/opncv-python.html",
-    redirect: "/blogs/jetson%20nano/opncv-python.html"
+    path: "/blogs/3D vision/conv_and_pool.html",
+    redirect: "/blogs/3D%20vision/conv_and_pool.html"
   },
   {
-    name: "v-324f94e8",
-    path: "/blogs/c++/node.html",
+    name: "v-6f309815",
+    path: "/blogs/Embedded%20Hardware/Esp32.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-324f94e8").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6f309815").then(next)
     },
   },
   {
-    name: "v-43ee007e",
-    path: "/blogs/python/python_node.html",
+    path: "/blogs/Embedded Hardware/Esp32.html",
+    redirect: "/blogs/Embedded%20Hardware/Esp32.html"
+  },
+  {
+    path: "/blogs/Embedded Hardware/Esp32.html",
+    redirect: "/blogs/Embedded%20Hardware/Esp32.html"
+  },
+  {
+    name: "v-a06f1f56",
+    path: "/blogs/Embedded%20Hardware/Stm32.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-43ee007e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a06f1f56").then(next)
     },
   },
   {
-    name: "v-e14db1cc",
-    path: "/blogs/papers/k-means.html",
+    path: "/blogs/Embedded Hardware/Stm32.html",
+    redirect: "/blogs/Embedded%20Hardware/Stm32.html"
+  },
+  {
+    path: "/blogs/Embedded Hardware/Stm32.html",
+    redirect: "/blogs/Embedded%20Hardware/Stm32.html"
+  },
+  {
+    name: "v-96de5956",
+    path: "/blogs/Embedded%20Hardware/51MCU.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e14db1cc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-96de5956").then(next)
     },
   },
   {
-    name: "v-e09dd050",
-    path: "/blogs/web/LearnningOS.html",
+    path: "/blogs/Embedded Hardware/51MCU.html",
+    redirect: "/blogs/Embedded%20Hardware/51MCU.html"
+  },
+  {
+    path: "/blogs/Embedded Hardware/51MCU.html",
+    redirect: "/blogs/Embedded%20Hardware/51MCU.html"
+  },
+  {
+    name: "v-32633d92",
+    path: "/blogs/Embedded%20Hardware/opncv-python.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e09dd050").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-32633d92").then(next)
+    },
+  },
+  {
+    path: "/blogs/Embedded Hardware/opncv-python.html",
+    redirect: "/blogs/Embedded%20Hardware/opncv-python.html"
+  },
+  {
+    path: "/blogs/Embedded Hardware/opncv-python.html",
+    redirect: "/blogs/Embedded%20Hardware/opncv-python.html"
+  },
+  {
+    name: "v-362f0416",
+    path: "/blogs/Embedded%20Hardware/jetson-nano.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-362f0416").then(next)
+    },
+  },
+  {
+    path: "/blogs/Embedded Hardware/jetson-nano.html",
+    redirect: "/blogs/Embedded%20Hardware/jetson-nano.html"
+  },
+  {
+    path: "/blogs/Embedded Hardware/jetson-nano.html",
+    redirect: "/blogs/Embedded%20Hardware/jetson-nano.html"
+  },
+  {
+    name: "v-37896e5c",
+    path: "/blogs/python/node.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-37896e5c").then(next)
     },
   },
   {
@@ -189,6 +197,22 @@ export const routes = [
     },
   },
   {
+    name: "v-e14db1cc",
+    path: "/blogs/papers/k-means.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e14db1cc").then(next)
+    },
+  },
+  {
+    name: "v-324f94e8",
+    path: "/blogs/c++/node.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-324f94e8").then(next)
+    },
+  },
+  {
     name: "v-518e1fb8",
     path: "/blogs/web/LernningNetWork.html",
     component: GlobalLayout,
@@ -197,11 +221,11 @@ export const routes = [
     },
   },
   {
-    name: "v-08560cd0",
-    path: "/blogs/web/vue.html",
+    name: "v-e09dd050",
+    path: "/blogs/web/LearnningOS.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-08560cd0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-e09dd050").then(next)
     },
   },
   {
@@ -210,6 +234,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-ca776e10").then(next)
+    },
+  },
+  {
+    name: "v-08560cd0",
+    path: "/blogs/web/vue.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-08560cd0").then(next)
     },
   },
   {
@@ -252,6 +284,19 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
+    name: "v-e8d99486",
+    path: "/tag/DL/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-e8d99486").then(next)
+    },
+    meta: {"pid":"tags","id":"DL"}
+  },
+  {
+    path: "/tag/DL/index.html",
+    redirect: "/tag/DL/"
+  },
+  {
     name: "v-309cc62e",
     path: "/tag/python/",
     component: GlobalLayout,
@@ -265,17 +310,17 @@ export const routes = [
     redirect: "/tag/python/"
   },
   {
-    name: "v-e8d99486",
-    path: "/tag/DL/",
+    name: "v-e8d950f4",
+    path: "/tag/ML/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-e8d99486").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-e8d950f4").then(next)
     },
-    meta: {"pid":"tags","id":"DL"}
+    meta: {"pid":"tags","id":"ML"}
   },
   {
-    path: "/tag/DL/index.html",
-    redirect: "/tag/DL/"
+    path: "/tag/ML/index.html",
+    redirect: "/tag/ML/"
   },
   {
     name: "v-3259ce14",
@@ -291,17 +336,17 @@ export const routes = [
     redirect: "/tag/CNN/"
   },
   {
-    name: "v-323bbe54",
-    path: "/tag/cnn/",
+    name: "v-14055bfa",
+    path: "/tag/node/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-323bbe54").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-14055bfa").then(next)
     },
-    meta: {"pid":"tags","id":"cnn"}
+    meta: {"pid":"tags","id":"node"}
   },
   {
-    path: "/tag/cnn/index.html",
-    redirect: "/tag/cnn/"
+    path: "/tag/node/index.html",
+    redirect: "/tag/node/"
   },
   {
     name: "v-2f092b9f",
@@ -317,6 +362,32 @@ export const routes = [
     redirect: "/tag/3D vision/"
   },
   {
+    name: "v-323bbe54",
+    path: "/tag/cnn/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-323bbe54").then(next)
+    },
+    meta: {"pid":"tags","id":"cnn"}
+  },
+  {
+    path: "/tag/cnn/index.html",
+    redirect: "/tag/cnn/"
+  },
+  {
+    name: "v-c8383164",
+    path: "/tag/Stm32/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-c8383164").then(next)
+    },
+    meta: {"pid":"tags","id":"Stm32"}
+  },
+  {
+    path: "/tag/Stm32/index.html",
+    redirect: "/tag/Stm32/"
+  },
+  {
     name: "v-0b1c14c6",
     path: "/tag/learnning reword/",
     component: GlobalLayout,
@@ -330,30 +401,30 @@ export const routes = [
     redirect: "/tag/learnning reword/"
   },
   {
-    name: "v-8ae32fd0",
-    path: "/tag/esp32/",
+    name: "v-bac21cb0",
+    path: "/tag/opencv/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-8ae32fd0").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-bac21cb0").then(next)
     },
-    meta: {"pid":"tags","id":"esp32"}
+    meta: {"pid":"tags","id":"opencv"}
   },
   {
-    path: "/tag/esp32/index.html",
-    redirect: "/tag/esp32/"
+    path: "/tag/opencv/index.html",
+    redirect: "/tag/opencv/"
   },
   {
-    name: "v-14055bfa",
-    path: "/tag/node/",
+    name: "v-192d793b",
+    path: "/tag/jetson nano/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-14055bfa").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-192d793b").then(next)
     },
-    meta: {"pid":"tags","id":"node"}
+    meta: {"pid":"tags","id":"jetson nano"}
   },
   {
-    path: "/tag/node/index.html",
-    redirect: "/tag/node/"
+    path: "/tag/jetson nano/index.html",
+    redirect: "/tag/jetson nano/"
   },
   {
     name: "v-e8d838fc",
@@ -382,43 +453,17 @@ export const routes = [
     redirect: "/tag/ubuntu18/"
   },
   {
-    name: "v-192d793b",
-    path: "/tag/jetson nano/",
+    name: "v-0f0ec90c",
+    path: "/tag/pytroch/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-192d793b").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-0f0ec90c").then(next)
     },
-    meta: {"pid":"tags","id":"jetson nano"}
+    meta: {"pid":"tags","id":"pytroch"}
   },
   {
-    path: "/tag/jetson nano/index.html",
-    redirect: "/tag/jetson nano/"
-  },
-  {
-    name: "v-bac21cb0",
-    path: "/tag/opencv/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-bac21cb0").then(next)
-    },
-    meta: {"pid":"tags","id":"opencv"}
-  },
-  {
-    path: "/tag/opencv/index.html",
-    redirect: "/tag/opencv/"
-  },
-  {
-    name: "v-323dc594",
-    path: "/tag/c++/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-323dc594").then(next)
-    },
-    meta: {"pid":"tags","id":"c++"}
-  },
-  {
-    path: "/tag/c++/index.html",
-    redirect: "/tag/c++/"
+    path: "/tag/pytroch/index.html",
+    redirect: "/tag/pytroch/"
   },
   {
     name: "v-767d94a4",
@@ -434,17 +479,17 @@ export const routes = [
     redirect: "/tag/聚类/"
   },
   {
-    name: "v-0f0ec90c",
-    path: "/tag/pytroch/",
+    name: "v-323dc594",
+    path: "/tag/c++/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-0f0ec90c").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-323dc594").then(next)
     },
-    meta: {"pid":"tags","id":"pytroch"}
+    meta: {"pid":"tags","id":"c++"}
   },
   {
-    path: "/tag/pytroch/index.html",
-    redirect: "/tag/pytroch/"
+    path: "/tag/c++/index.html",
+    redirect: "/tag/c++/"
   },
   {
     name: "v-4b3788a4",
@@ -460,19 +505,6 @@ export const routes = [
     redirect: "/tag/net work/"
   },
   {
-    name: "v-322a45da",
-    path: "/tag/vue/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
-    },
-    meta: {"pid":"tags","id":"vue"}
-  },
-  {
-    path: "/tag/vue/index.html",
-    redirect: "/tag/vue/"
-  },
-  {
     name: "v-dfb71430",
     path: "/tag/vuepress/",
     component: GlobalLayout,
@@ -484,6 +516,19 @@ export const routes = [
   {
     path: "/tag/vuepress/index.html",
     redirect: "/tag/vuepress/"
+  },
+  {
+    name: "v-322a45da",
+    path: "/tag/vue/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
+    },
+    meta: {"pid":"tags","id":"vue"}
+  },
+  {
+    path: "/tag/vue/index.html",
+    redirect: "/tag/vue/"
   },
   {
     name: "v-d9029fda",
@@ -525,19 +570,6 @@ export const routes = [
     redirect: "/categories/jetson nano/"
   },
   {
-    name: "v-7f0c55aa",
-    path: "/categories/c++/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-7f0c55aa").then(next)
-    },
-    meta: {"pid":"categories","id":"c++"}
-  },
-  {
-    path: "/categories/c++/index.html",
-    redirect: "/categories/c++/"
-  },
-  {
     name: "v-155fc016",
     path: "/categories/python/",
     component: GlobalLayout,
@@ -562,6 +594,19 @@ export const routes = [
   {
     path: "/categories/papers/index.html",
     redirect: "/categories/papers/"
+  },
+  {
+    name: "v-7f0c55aa",
+    path: "/categories/c++/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-7f0c55aa").then(next)
+    },
+    meta: {"pid":"categories","id":"c++"}
+  },
+  {
+    path: "/categories/c++/index.html",
+    redirect: "/categories/c++/"
   },
   {
     name: "v-7f164d79",

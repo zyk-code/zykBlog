@@ -66,7 +66,7 @@ module.exports = {
     logo: "/logo.png",
     search: false,    // 不开启搜索
     searchMaxSuggestions: 10,
-    lastUpdated: "Last Updated",
+    lastUpdated: "上次更新时间",
     author: "zyk",
     authorAvatar: "/user.png",
     // "record": "zyk",
@@ -80,8 +80,8 @@ module.exports = {
     // },
 
   },
-  "markdown": {
-    "lineNumbers": true
+  markdown: {
+    lineNumbers: true
   },
   
   extendMarkdown(md) {

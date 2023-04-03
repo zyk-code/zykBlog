@@ -39,9 +39,30 @@ pycharm使用环境
 
 ## pytorch的基本使用
 
-引入库文件
+#### 使用记录
 
-### 创建tensor
+1、tensor <==> numpy	
+
+```python
+import torch
+import numpy as np
+
+x = torch.arange(12)
+x_numpy = x.numpy()
+print(type(x_numpy))
+#<class 'numpy.ndarray'>
+
+y = np.arange(12)
+y_tensor = torch.from_numpy(y)
+print(type(y_tensor))
+#<class 'torch.Tensor'>
+```
+
+2、注意如果创建的tensor 的梯度。 numpy是可以直接将tensor转numpy,但是没有梯度信息，要保留梯度回传的计算图就需要detach
+
+
+
+#### 创建tensor
 
 empty 创建未初始化的矩阵 可以跟size
 
@@ -63,25 +84,11 @@ reshape(i, j)  将数据重新排列为 i 行 j 列
 
 cat(x, y) 将 x 和 y 进行连结
 
-##### 广播机制
+#### 广播机制
 
 两个张量不符合一般的运算规则时，就会将他们的维度进行扩充（一般为自身复制）
 
-##### 数据
+#### 数据
 
 Dataset Dataload
 
-## 深度学习
-
-### 梯度
-梯度下降
-
-反向传播是根据链式求导法则演化的，可以设计出多种门，在troch有专门的包可使用
-
-### 激活函数
-sigmod
-tranl
-relu
-relu的改进
-
-前三者都是会有梯度消失的问题

@@ -1,5 +1,5 @@
 ---
-title: 嵌入式学习记录
+title: 51单片机学习记录
 date: 2022/8/1
 tags:
   - learnning reword

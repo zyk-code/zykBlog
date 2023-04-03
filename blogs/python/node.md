@@ -236,7 +236,7 @@ conda config --remove channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
     
     PyPy 是 Python 语言（2.7.13和3.5.3）的一种快速、兼容的替代实现（http://pypy.org/），以速度快著称
 
-## 迭代器
+## 迭代器与生成器
 优雅的访问set和需要循环的列表等
 
 一个迭代器类需要有: iter和next
@@ -247,20 +247,153 @@ __next__() 方法（Python 2 里是 next()）会返回下一个迭代器对象�
 
 StopIteration是异常用于标识迭代的完成
 
-## 生成器
 
-## 装饰器
-@
-python装饰器本质上是一个函数，可以让其他函数在不需要做任何代码变动的前提下添加额外功能，
-装饰器的返回值也是一个函数对象。简单的说装饰器就是一个用来返回函数的函数。
 
 ## 面向对象和类
 
-class 各种通用
+- **类(Class):** 用来描述具有相同的属性和方法的对象的集合。它定义了该集合中每个对象所共有的属性和方法。对象是类的实例。
 
-类内调用初始化的参数，要使用self关键字，类似于把这些属性封装到了这个指定对象内部
+- **方法：**类中定义的函数。
 
-## 多进程
+- **类变量：**类变量在整个实例化的对象中是公用的。类变量定义在类中且在函数体之外。类变量通常不作为实例变量使用。
+
+- **数据成员：**类变量或者实例变量用于处理类及其实例对象的相关的数据。
+
+- **方法重写：**如果从父类继承的方法不能满足子类的需求，可以对其进行改写，这个过程叫方法的覆盖（override），也称为方法的重写。
+
+- **局部变量：**定义在方法中的变量，只作用于当前实例的类。
+
+- **实例变量：**在类的声明中，属性是用变量来表示的，这种变量就称为实例变量，实例变量就是一个用 self 修饰的变量。
+
+- **继承：**即一个派生类（derived class）继承基类（base class）的字段和方法。继承也允许把一个派生类的对象作为一个基类对象对待。例如，有这样一个设计：一个Dog类型的对象派生自Animal类，这是模拟"是一个（is-a）"关系（例图，Dog是一个Animal）。
+
+- **实例化：**创建一个类的实例，类的具体对象。
+
+- **对象：**通过类定义的数据结构实例。对象包括两个数据成员（类变量和实例变量）和方法。
+
+- **类的私有属性**
+
+  **__private_attrs**：两个下划线开头，声明该属性为私有，不能在类的外部被使用或直接访问。在类内部的方法中使用时 **self.__private_attrs**。**self** 的名字并不是规定死的，也可以使用 **this**，但是最好还是按照约定使用 **self**。
+
+  **__private_method**：两个下划线开头，声明该方法为私有方法，只能在类的内部调用 ，不能在类的外部调用。**self.__private_methods**()。
+
+类的继承机制允许多个基类，派生类可以覆盖基类中的任何方法，方法中可以调用基类中的同名方法。（这样可能不具有多态功能）
+
+##### 示例
+
+```python
+class people:
+    #定义基本属性
+    name = ''
+    age = 0
+    # 定义私有属性,私有属性在类外部无法直接进行访问
+    __weight = 0
+    # 定义构造方法
+    def __init__(self,n,a,w):
+        self.name = n
+        self.age = a
+        self.__weight = w
+    def speak(self):
+        print("%s 说: 我 %d 岁。" %(self.name,self.age))
+ 
+# 单继承示例
+class student(people):
+    grade = ''
+    def __init__(self,n,a,w,g):
+        #调用父类的构函
+        people.__init__(self,n,a,w)
+        self.grade = g
+    # 重写父类的方法
+    def speak(self):
+        print("%s 说: 我 %d 岁了，我在读 %d 年级"%(self.name,self.age,self.grade))
+ 
+#另一个类，多重继承之前的准备
+class speaker():
+    topic = ''
+    name = ''
+    def __init__(self,n,t):
+        self.name = n
+        self.topic = t
+    def speak(self):
+        print("我叫 %s，我是一个演说家，我演讲的主题是 %s"%(self.name,self.topic))
+ 
+# 多重继承
+class sample(speaker,student):
+    a =''
+    def __init__(self,n,a,w,g,t):
+        student.__init__(self,n,a,w,g)
+        speaker.__init__(self,n,t)
+ 
+test = sample("Tim",25,80,4,"Python")
+test.speak()   #方法名同，默认调用的是在括号中参数位置（speaker,student）排前父类的方法
+# 我叫 Tim，我是一个演说家，我演讲的主题是 Python
+```
+
+##### 注意
+
+self 是指向类所创建的实例。
+
+支持运算符号重载类似C++
+
+## 装饰器
+
+[博客地址](https://blog.csdn.net/qq_22918243/article/details/127484172)
+
+使用符号为@
+python装饰器本质上是一个函数，可以让其他函数在不需要做任何代码变动的前提下添加额外功能，
+装饰器的返回值也是一个函数对象。简单的说装饰器就是一个用来返回函数的函数。
+
+```python
+def decro(func):  
+    def wrapper(*args, **kwargs):  
+        print("wrapper")  
+        return func()  
+  
+    return wrapper
+
+@decro  
+def test():  
+    print("test")  
+
+test()
+# wrapper
+# test
+
+```
+
+1、**执行流程**是先执行完装饰器中的内容，在执行加入装饰器函数中的内容
+
+2、加入装饰器会使得原函数的**函数信息** `__name__` 和 `__doc__` 变成 装饰器的信息
+
+3、不改变函数信息的方式是引入wraps装饰器并在装饰器的执行函数中装饰。
+
+```python
+from functools import wraps  
+  
+def decro(func):  
+  
+    @wraps(func)  
+    def wrapper(*args, **kwargs):  
+        """ wrapper doc """  
+        print("wrapper")  
+        return func(*args, **kwargs)  
+  
+    return wrapper  
+  
+@decro  
+def test():  
+    """ test doc """  
+    print("test")  
+
+# 调用原函数
+test.__wrapped__()
+```
+
+## 并发编程
+
+
+
+#### 多进程
 multiprocessing包 Process类
 ```python
 from multiprocessing import Process
@@ -274,7 +407,7 @@ Process_text.start() # 开始进程
 
 ```
 
-## 多线程
+#### 多线程
 Threading的包 中的threading类，python自带的
 ```python
 from threading import Thread
@@ -290,14 +423,19 @@ threading.enumerate() # 查看当前线程池，返回list
 ```
 线程的结束是内部run()，即被cpu执行完毕。如何下次要start，可以重新写一个线程，前面的会被python自动回收
 
-## 锁
-### 死锁
 
+### 
 
-### 互斥锁
-
-
-### 递归锁
-
-
-### 信号量
+## 算法
+### 数组去重
+```python
+# 使用set对数值去重复
+list = [1,3,4,3,5,5]
+res = []
+s = set(list)
+for i in s:
+    res.append(i)
+print(s)
+print(res)
+print(type(res[0]))
+```

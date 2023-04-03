@@ -1,11 +1,11 @@
 ---
-title: Esp32读取MPU6050
-date: 2023/2/17
+title: Esp32
+date: 2023/03/31 22:54:44
+author: zyk
 tags:
-  - esp32
+  - 
 categories: Embedded Hardware
 ---
-
 
 ## **陀螺仪**
 

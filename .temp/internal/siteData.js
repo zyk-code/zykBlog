@@ -23,32 +23,12 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Home",
+      "title": "深度学习记录",
       "frontmatter": {
-        "home": true,
-        "heroText": "word ＆ node",
-        "tagline": "一个存放个人笔记的地方。",
-        "bgImageStyle": {
-          "height": "750px"
-        },
-        "isShowTitleInHome": false
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-2e6b2d69",
-      "path": "/",
-      "lastUpdated": "3/22/2023, 8:34:00 PM",
-      "lastUpdatedTimestamp": 1679488440000
-    },
-    {
-      "title": "深度学习笔记",
-      "frontmatter": {
-        "title": "深度学习笔记",
+        "title": "深度学习记录",
         "date": "2023/3/22",
         "tags": [
-          "python",
-          "DL",
-          "CNN"
+          "DL"
         ],
         "categories": "3D vision"
       },
@@ -56,6 +36,82 @@ export const siteData = {
       "relativePath": "blogs/3D vision/DL.md",
       "key": "v-33a69e2a",
       "path": "/blogs/3D%20vision/DL.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "过程",
+          "slug": "过程"
+        },
+        {
+          "level": 3,
+          "title": "经典的激活函数",
+          "slug": "经典的激活函数"
+        },
+        {
+          "level": 3,
+          "title": "relu激活函数（斜坡函数）",
+          "slug": "relu激活函数-斜坡函数"
+        },
+        {
+          "level": 3,
+          "title": "tanh激活函数（双曲正切）",
+          "slug": "tanh激活函数-双曲正切"
+        },
+        {
+          "level": 2,
+          "title": "神经网络与经典的网络架构",
+          "slug": "神经网络与经典的网络架构"
+        },
+        {
+          "level": 3,
+          "title": "全连接神经网络",
+          "slug": "全连接神经网络"
+        },
+        {
+          "level": 3,
+          "title": "卷积神经网络",
+          "slug": "卷积神经网络"
+        },
+        {
+          "level": 3,
+          "title": "rcnn",
+          "slug": "rcnn"
+        },
+        {
+          "level": 3,
+          "title": "fast-rcnn 、faster-rcnn & marks-rcnn",
+          "slug": "fast-rcnn-、faster-rcnn-marks-rcnn"
+        },
+        {
+          "level": 3,
+          "title": "transformer",
+          "slug": "transformer"
+        },
+        {
+          "level": 2,
+          "title": "",
+          "slug": ""
+        }
+      ],
+      "lastUpdated": "3/28/2023, 8:46:58 PM",
+      "lastUpdatedTimestamp": 1680007618000
+    },
+    {
+      "title": "机器学习笔记",
+      "frontmatter": {
+        "title": "机器学习笔记",
+        "date": "2023/3/22",
+        "tags": [
+          "python",
+          "ML",
+          "CNN"
+        ],
+        "categories": "3D vision"
+      },
+      "regularPath": "/blogs/3D%20vision/ML.html",
+      "relativePath": "blogs/3D vision/ML.md",
+      "key": "v-7e73d07d",
+      "path": "/blogs/3D%20vision/ML.html",
       "headers": [
         {
           "level": 2,
@@ -83,31 +139,78 @@ export const siteData = {
           "slug": "逻辑回归"
         },
         {
-          "level": 2,
-          "title": "神经网络",
-          "slug": "神经网络"
+          "level": 3,
+          "title": "支持向量机（SVM）",
+          "slug": "支持向量机-svm"
+        },
+        {
+          "level": 3,
+          "title": "朴素贝叶斯",
+          "slug": "朴素贝叶斯"
+        },
+        {
+          "level": 3,
+          "title": "决策树",
+          "slug": "决策树"
         }
       ]
     },
     {
-      "title": "卷积和池化",
+      "title": "Home",
       "frontmatter": {
-        "title": "卷积和池化",
-        "date": "2023/3/10",
+        "home": true,
+        "heroText": "word ＆ node",
+        "tagline": "一个存放个人笔记的地方。",
+        "bgImageStyle": {
+          "height": "750px"
+        },
+        "isShowTitleInHome": false
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-2e6b2d69",
+      "path": "/",
+      "lastUpdated": "3/22/2023, 8:34:00 PM",
+      "lastUpdatedTimestamp": 1679488440000
+    },
+    {
+      "title": "3D 相关的词解",
+      "frontmatter": {
+        "title": "3D 相关的词解",
         "tags": [
-          "cnn"
+          "node"
         ],
         "categories": "3D vision"
       },
-      "regularPath": "/blogs/3D%20vision/conv_and_pool.html",
-      "relativePath": "blogs/3D vision/conv_and_pool.md",
-      "key": "v-97bb6a16",
-      "path": "/blogs/3D%20vision/conv_and_pool.html",
+      "regularPath": "/blogs/3D%20vision/word.html",
+      "relativePath": "blogs/3D vision/word.md",
+      "key": "v-587292a7",
+      "path": "/blogs/3D%20vision/word.html",
       "headers": [
         {
           "level": 2,
-          "title": "池化",
-          "slug": "池化"
+          "title": "图像",
+          "slug": "图像"
+        },
+        {
+          "level": 2,
+          "title": "网络",
+          "slug": "网络"
+        },
+        {
+          "level": 2,
+          "title": "yolo & 3d",
+          "slug": "yolo-3d"
+        },
+        {
+          "level": 3,
+          "title": "Complex yolov4",
+          "slug": "complex-yolov4"
+        },
+        {
+          "level": 3,
+          "title": "YOLO-6D",
+          "slug": "yolo-6d"
         }
       ],
       "lastUpdated": "3/22/2023, 8:34:00 PM",
@@ -132,22 +235,138 @@ export const siteData = {
           "title": "三维空间的描述",
           "slug": "三维空间的描述"
         }
+      ],
+      "lastUpdated": "3/28/2023, 8:46:58 PM",
+      "lastUpdatedTimestamp": 1680007618000
+    },
+    {
+      "title": "卷积和池化",
+      "frontmatter": {
+        "title": "卷积和池化",
+        "date": "2023/3/10",
+        "tags": [
+          "cnn"
+        ],
+        "categories": "3D vision"
+      },
+      "regularPath": "/blogs/3D%20vision/conv_and_pool.html",
+      "relativePath": "blogs/3D vision/conv_and_pool.md",
+      "key": "v-97bb6a16",
+      "path": "/blogs/3D%20vision/conv_and_pool.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "池化",
+          "slug": "池化"
+        }
+      ],
+      "lastUpdated": "3/28/2023, 8:46:58 PM",
+      "lastUpdatedTimestamp": 1680007618000
+    },
+    {
+      "title": "Esp32",
+      "frontmatter": {
+        "title": "Esp32",
+        "date": "2023/03/31 22:54:44",
+        "author": "zyk",
+        "tags": [
+          null
+        ],
+        "categories": "Embedded Hardware"
+      },
+      "regularPath": "/blogs/Embedded%20Hardware/Esp32.html",
+      "relativePath": "blogs/Embedded Hardware/Esp32.md",
+      "key": "v-6f309815",
+      "path": "/blogs/Embedded%20Hardware/Esp32.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "陀螺仪",
+          "slug": "陀螺仪"
+        },
+        {
+          "level": 2,
+          "title": "MPU6050模块",
+          "slug": "mpu6050模块"
+        }
       ]
     },
     {
-      "title": "嵌入式学习记录",
+      "title": "Stm32笔记",
       "frontmatter": {
-        "title": "嵌入式学习记录",
+        "title": "Stm32笔记",
+        "date": "2023/3/31",
+        "tags": [
+          "Stm32"
+        ],
+        "categories": "Embedded Hardware"
+      },
+      "regularPath": "/blogs/Embedded%20Hardware/Stm32.html",
+      "relativePath": "blogs/Embedded Hardware/Stm32.md",
+      "key": "v-a06f1f56",
+      "path": "/blogs/Embedded%20Hardware/Stm32.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "STM 32",
+          "slug": "stm-32"
+        },
+        {
+          "level": 3,
+          "title": "小常识",
+          "slug": "小常识"
+        },
+        {
+          "level": 2,
+          "title": "标准库",
+          "slug": "标准库"
+        },
+        {
+          "level": 3,
+          "title": "如何构建项目",
+          "slug": "如何构建项目"
+        },
+        {
+          "level": 2,
+          "title": "HAL库",
+          "slug": "hal库"
+        },
+        {
+          "level": 3,
+          "title": "GPIO和按键",
+          "slug": "gpio和按键"
+        },
+        {
+          "level": 3,
+          "title": "定时器",
+          "slug": "定时器"
+        },
+        {
+          "level": 3,
+          "title": "OLED",
+          "slug": "oled"
+        },
+        {
+          "level": 3,
+          "title": "串口和定时器串口",
+          "slug": "串口和定时器串口"
+        }
+      ]
+    },
+    {
+      "title": "51单片机学习记录",
+      "frontmatter": {
+        "title": "51单片机学习记录",
         "date": "2022/8/1",
         "tags": [
           "learnning reword"
         ],
         "categories": "Embedded Hardware"
       },
-      "regularPath": "/blogs/Embedded%20Hardware/Embedded_Hardware_Learning_Records.html",
-      "relativePath": "blogs/Embedded Hardware/Embedded_Hardware_Learning_Records.md",
-      "key": "v-3b1836fa",
-      "path": "/blogs/Embedded%20Hardware/Embedded_Hardware_Learning_Records.html",
+      "regularPath": "/blogs/Embedded%20Hardware/51MCU.html",
+      "relativePath": "blogs/Embedded Hardware/51MCU.md",
+      "key": "v-96de5956",
+      "path": "/blogs/Embedded%20Hardware/51MCU.html",
       "headers": [
         {
           "level": 3,
@@ -219,81 +438,31 @@ export const siteData = {
           "title": "SPI协议",
           "slug": "spi协议"
         }
-      ],
-      "lastUpdated": "3/22/2023, 8:34:00 PM",
-      "lastUpdatedTimestamp": 1679488440000
+      ]
     },
     {
-      "title": "Esp32读取MPU6050",
+      "title": "Opencv使用踩坑记录",
       "frontmatter": {
-        "title": "Esp32读取MPU6050",
-        "date": "2023/2/17",
+        "title": "Opencv使用踩坑记录",
+        "date": "2023/3/18",
         "tags": [
-          "esp32"
+          "opencv",
+          "python",
+          "jetson nano"
         ],
-        "categories": "Embedded Hardware"
+        "categories": "jetson nano"
       },
-      "regularPath": "/blogs/Embedded%20Hardware/mpu6050.html",
-      "relativePath": "blogs/Embedded Hardware/mpu6050.md",
-      "key": "v-5a5aaf95",
-      "path": "/blogs/Embedded%20Hardware/mpu6050.html",
+      "regularPath": "/blogs/Embedded%20Hardware/opncv-python.html",
+      "relativePath": "blogs/Embedded Hardware/opncv-python.md",
+      "key": "v-32633d92",
+      "path": "/blogs/Embedded%20Hardware/opncv-python.html",
       "headers": [
         {
-          "level": 2,
-          "title": "陀螺仪",
-          "slug": "陀螺仪"
-        },
-        {
-          "level": 2,
-          "title": "MPU6050模块",
-          "slug": "mpu6050模块"
-        }
-      ],
-      "lastUpdated": "3/22/2023, 8:34:00 PM",
-      "lastUpdatedTimestamp": 1679488440000
-    },
-    {
-      "title": "3D 相关的词解",
-      "frontmatter": {
-        "title": "3D 相关的词解",
-        "tags": [
-          "node"
-        ],
-        "categories": "3D vision"
-      },
-      "regularPath": "/blogs/3D%20vision/word.html",
-      "relativePath": "blogs/3D vision/word.md",
-      "key": "v-587292a7",
-      "path": "/blogs/3D%20vision/word.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "图像",
-          "slug": "图像"
-        },
-        {
-          "level": 2,
-          "title": "网络",
-          "slug": "网络"
-        },
-        {
-          "level": 2,
-          "title": "yolo & 3d",
-          "slug": "yolo-3d"
-        },
-        {
           "level": 3,
-          "title": "Complex yolov4",
-          "slug": "complex-yolov4"
-        },
-        {
-          "level": 3,
-          "title": "YOLO-6D",
-          "slug": "yolo-6d"
+          "title": "摄像头驱动",
+          "slug": "摄像头驱动"
         }
-      ],
-      "lastUpdated": "3/22/2023, 8:34:00 PM",
-      "lastUpdatedTimestamp": 1679488440000
+      ]
     },
     {
       "title": "jetson nano 的ubuntu使用记录",
@@ -305,12 +474,12 @@ export const siteData = {
           "ubuntu18",
           "jetson nano"
         ],
-        "categories": "jetson nano"
+        "categories": "Embedded Hardware"
       },
-      "regularPath": "/blogs/jetson%20nano/node.html",
-      "relativePath": "blogs/jetson nano/node.md",
-      "key": "v-b44dff02",
-      "path": "/blogs/jetson%20nano/node.html",
+      "regularPath": "/blogs/Embedded%20Hardware/jetson-nano.html",
+      "relativePath": "blogs/Embedded Hardware/jetson-nano.md",
+      "key": "v-362f0416",
+      "path": "/blogs/Embedded%20Hardware/jetson-nano.html",
       "headers": [
         {
           "level": 2,
@@ -330,106 +499,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "Opencv使用踩坑记录",
-      "frontmatter": {
-        "title": "Opencv使用踩坑记录",
-        "date": "2023/3/18",
-        "tags": [
-          "opencv",
-          "python",
-          "jetson nano"
-        ],
-        "categories": "jetson nano"
-      },
-      "regularPath": "/blogs/jetson%20nano/opncv-python.html",
-      "relativePath": "blogs/jetson nano/opncv-python.md",
-      "key": "v-15a632f1",
-      "path": "/blogs/jetson%20nano/opncv-python.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "摄像头驱动",
-          "slug": "摄像头驱动"
-        }
-      ],
-      "lastUpdated": "3/22/2023, 8:34:00 PM",
-      "lastUpdatedTimestamp": 1679488440000
-    },
-    {
-      "title": "c++ 学习记录",
-      "frontmatter": {
-        "title": "c++ 学习记录",
-        "date": "2022/10/10",
-        "tags": [
-          "c++"
-        ],
-        "categories": "c++"
-      },
-      "regularPath": "/blogs/c++/node.html",
-      "relativePath": "blogs/c++/node.md",
-      "key": "v-324f94e8",
-      "path": "/blogs/c++/node.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "C++语法",
-          "slug": "c-语法"
-        },
-        {
-          "level": 3,
-          "title": "小细节",
-          "slug": "小细节"
-        },
-        {
-          "level": 3,
-          "title": "常识",
-          "slug": "常识"
-        },
-        {
-          "level": 2,
-          "title": "内容",
-          "slug": "内容"
-        },
-        {
-          "level": 3,
-          "title": "文件和流",
-          "slug": "文件和流"
-        },
-        {
-          "level": 3,
-          "title": "异常处理",
-          "slug": "异常处理"
-        },
-        {
-          "level": 3,
-          "title": "动态内存",
-          "slug": "动态内存"
-        },
-        {
-          "level": 3,
-          "title": "命名空间",
-          "slug": "命名空间"
-        },
-        {
-          "level": 3,
-          "title": "模板",
-          "slug": "模板"
-        },
-        {
-          "level": 3,
-          "title": "多线程",
-          "slug": "多线程"
-        },
-        {
-          "level": 3,
-          "title": "STL",
-          "slug": "stl"
-        }
-      ],
-      "lastUpdated": "3/22/2023, 8:34:00 PM",
-      "lastUpdatedTimestamp": 1679488440000
-    },
-    {
       "title": "python 笔记",
       "frontmatter": {
         "title": "python 笔记",
@@ -439,10 +508,10 @@ export const siteData = {
         ],
         "categories": "python"
       },
-      "regularPath": "/blogs/python/python_node.html",
-      "relativePath": "blogs/python/python_node.md",
-      "key": "v-43ee007e",
-      "path": "/blogs/python/python_node.html",
+      "regularPath": "/blogs/python/node.html",
+      "relativePath": "blogs/python/node.md",
+      "key": "v-37896e5c",
+      "path": "/blogs/python/node.html",
       "headers": [
         {
           "level": 2,
@@ -531,18 +600,8 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "迭代器",
-          "slug": "迭代器"
-        },
-        {
-          "level": 2,
-          "title": "生成器",
-          "slug": "生成器"
-        },
-        {
-          "level": 2,
-          "title": "装饰器",
-          "slug": "装饰器"
+          "title": "迭代器与生成器",
+          "slug": "迭代器与生成器"
         },
         {
           "level": 2,
@@ -551,38 +610,61 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "多进程",
-          "slug": "多进程"
+          "title": "装饰器",
+          "slug": "装饰器"
         },
         {
           "level": 2,
-          "title": "多线程",
-          "slug": "多线程"
+          "title": "并发编程",
+          "slug": "并发编程"
+        },
+        {
+          "level": 3,
+          "title": "",
+          "slug": ""
         },
         {
           "level": 2,
-          "title": "锁",
-          "slug": "锁"
+          "title": "算法",
+          "slug": "算法"
         },
         {
           "level": 3,
-          "title": "死锁",
-          "slug": "死锁"
+          "title": "数组去重",
+          "slug": "数组去重"
+        }
+      ]
+    },
+    {
+      "title": "初识pytroch",
+      "frontmatter": {
+        "title": "初识pytroch",
+        "date": "2023/3/22",
+        "tags": [
+          "python",
+          "pytroch"
+        ],
+        "categories": "python"
+      },
+      "regularPath": "/blogs/python/pytroch.html",
+      "relativePath": "blogs/python/pytroch.md",
+      "key": "v-5d52d5ae",
+      "path": "/blogs/python/pytroch.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "环境配置",
+          "slug": "环境配置"
         },
         {
-          "level": 3,
-          "title": "互斥锁",
-          "slug": "互斥锁"
+          "level": 2,
+          "title": "相关知识点",
+          "slug": "相关知识点"
         },
         {
-          "level": 3,
-          "title": "递归锁",
-          "slug": "递归锁"
-        },
-        {
-          "level": 3,
-          "title": "信号量",
-          "slug": "信号量"
+          "level": 2,
+          "title": "pytorch的基本使用",
+          "slug": "pytorch的基本使用"
         }
       ],
       "lastUpdated": "3/22/2023, 8:34:00 PM",
@@ -601,7 +683,106 @@ export const siteData = {
       "regularPath": "/blogs/papers/k-means.html",
       "relativePath": "blogs/papers/k-means.md",
       "key": "v-e14db1cc",
-      "path": "/blogs/papers/k-means.html"
+      "path": "/blogs/papers/k-means.html",
+      "lastUpdated": "3/28/2023, 8:46:58 PM",
+      "lastUpdatedTimestamp": 1680007618000
+    },
+    {
+      "title": "c++ 学习记录",
+      "frontmatter": {
+        "title": "c++ 学习记录",
+        "date": "2022/10/10",
+        "tags": [
+          "c++"
+        ],
+        "categories": "c++"
+      },
+      "regularPath": "/blogs/c++/node.html",
+      "relativePath": "blogs/c++/node.md",
+      "key": "v-324f94e8",
+      "path": "/blogs/c++/node.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "C++语法",
+          "slug": "c-语法"
+        },
+        {
+          "level": 3,
+          "title": "小细节",
+          "slug": "小细节"
+        },
+        {
+          "level": 3,
+          "title": "常识",
+          "slug": "常识"
+        },
+        {
+          "level": 2,
+          "title": "内容",
+          "slug": "内容"
+        },
+        {
+          "level": 3,
+          "title": "文件和流",
+          "slug": "文件和流"
+        },
+        {
+          "level": 3,
+          "title": "异常处理",
+          "slug": "异常处理"
+        },
+        {
+          "level": 3,
+          "title": "动态内存",
+          "slug": "动态内存"
+        },
+        {
+          "level": 3,
+          "title": "命名空间",
+          "slug": "命名空间"
+        },
+        {
+          "level": 3,
+          "title": "模板",
+          "slug": "模板"
+        },
+        {
+          "level": 3,
+          "title": "多线程",
+          "slug": "多线程"
+        },
+        {
+          "level": 3,
+          "title": "STL",
+          "slug": "stl"
+        }
+      ],
+      "lastUpdated": "3/28/2023, 8:46:58 PM",
+      "lastUpdatedTimestamp": 1680007618000
+    },
+    {
+      "title": "计算机网络笔记",
+      "frontmatter": {
+        "title": "计算机网络笔记",
+        "tags": [
+          "net work"
+        ],
+        "categories": "web"
+      },
+      "regularPath": "/blogs/web/LernningNetWork.html",
+      "relativePath": "blogs/web/LernningNetWork.md",
+      "key": "v-518e1fb8",
+      "path": "/blogs/web/LernningNetWork.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "模型",
+          "slug": "模型"
+        }
+      ],
+      "lastUpdated": "3/22/2023, 8:34:00 PM",
+      "lastUpdatedTimestamp": 1679488440000
     },
     {
       "title": "计算机操作系统学习记录",
@@ -703,111 +884,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1679488440000
     },
     {
-      "title": "初识pytroch",
-      "frontmatter": {
-        "title": "初识pytroch",
-        "date": "2023/3/22",
-        "tags": [
-          "python",
-          "pytroch"
-        ],
-        "categories": "python"
-      },
-      "regularPath": "/blogs/python/pytroch.html",
-      "relativePath": "blogs/python/pytroch.md",
-      "key": "v-5d52d5ae",
-      "path": "/blogs/python/pytroch.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "环境配置",
-          "slug": "环境配置"
-        },
-        {
-          "level": 2,
-          "title": "相关知识点",
-          "slug": "相关知识点"
-        },
-        {
-          "level": 2,
-          "title": "pytorch的基本使用",
-          "slug": "pytorch的基本使用"
-        },
-        {
-          "level": 3,
-          "title": "创建tensor",
-          "slug": "创建tensor"
-        },
-        {
-          "level": 2,
-          "title": "深度学习",
-          "slug": "深度学习"
-        },
-        {
-          "level": 3,
-          "title": "梯度",
-          "slug": "梯度"
-        },
-        {
-          "level": 3,
-          "title": "激活函数",
-          "slug": "激活函数"
-        }
-      ],
-      "lastUpdated": "3/22/2023, 8:34:00 PM",
-      "lastUpdatedTimestamp": 1679488440000
-    },
-    {
-      "title": "计算机网络笔记",
-      "frontmatter": {
-        "title": "计算机网络笔记",
-        "tags": [
-          "net work"
-        ],
-        "categories": "web"
-      },
-      "regularPath": "/blogs/web/LernningNetWork.html",
-      "relativePath": "blogs/web/LernningNetWork.md",
-      "key": "v-518e1fb8",
-      "path": "/blogs/web/LernningNetWork.html",
-      "lastUpdated": "3/22/2023, 8:34:00 PM",
-      "lastUpdatedTimestamp": 1679488440000
-    },
-    {
-      "title": "Vue",
-      "frontmatter": {
-        "title": "Vue",
-        "date": "2023/3/22",
-        "tags": [
-          "vue"
-        ],
-        "categories": "web"
-      },
-      "regularPath": "/blogs/web/vue.html",
-      "relativePath": "blogs/web/vue.md",
-      "key": "v-08560cd0",
-      "path": "/blogs/web/vue.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "tensorflow.js",
-          "slug": "tensorflow-js"
-        },
-        {
-          "level": 3,
-          "title": "基本使用",
-          "slug": "基本使用"
-        },
-        {
-          "level": 3,
-          "title": "回归曲线",
-          "slug": "回归曲线"
-        }
-      ],
-      "lastUpdated": "3/22/2023, 8:34:00 PM",
-      "lastUpdatedTimestamp": 1679488440000
-    },
-    {
       "title": "vuepress搭建blog记录",
       "frontmatter": {
         "title": "vuepress搭建blog记录",
@@ -850,8 +926,97 @@ export const siteData = {
         },
         {
           "level": 3,
+          "title": "vscode配置代码段自动生成bloghead",
+          "slug": "vscode配置代码段自动生成bloghead"
+        },
+        {
+          "level": 3,
           "title": "目录分级管理",
           "slug": "目录分级管理"
+        }
+      ],
+      "lastUpdated": "3/28/2023, 8:46:58 PM",
+      "lastUpdatedTimestamp": 1680007618000
+    },
+    {
+      "title": "Vue",
+      "frontmatter": {
+        "title": "Vue",
+        "date": "2023/3/22",
+        "tags": [
+          "vue"
+        ],
+        "categories": "web"
+      },
+      "regularPath": "/blogs/web/vue.html",
+      "relativePath": "blogs/web/vue.md",
+      "key": "v-08560cd0",
+      "path": "/blogs/web/vue.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "VUE2",
+          "slug": "vue2"
+        },
+        {
+          "level": 3,
+          "title": "模板语法template",
+          "slug": "模板语法template"
+        },
+        {
+          "level": 3,
+          "title": "数据代理",
+          "slug": "数据代理"
+        },
+        {
+          "level": 3,
+          "title": "事件",
+          "slug": "事件"
+        },
+        {
+          "level": 2,
+          "title": "VUE3",
+          "slug": "vue3"
+        },
+        {
+          "level": 2,
+          "title": "blog",
+          "slug": "blog"
+        },
+        {
+          "level": 3,
+          "title": "华为为AGC的兼容性插件解决方法",
+          "slug": "华为为agc的兼容性插件解决方法"
+        },
+        {
+          "level": 3,
+          "title": "使用多表，同数据域",
+          "slug": "使用多表-同数据域"
+        },
+        {
+          "level": 3,
+          "title": "css记录",
+          "slug": "css记录"
+        },
+        {
+          "level": 3,
+          "title": "动态图表",
+          "slug": "动态图表"
+        },
+        {
+          "level": 2,
+          "title": "tensorflow.js",
+          "slug": "tensorflow-js"
+        },
+        {
+          "level": 3,
+          "title": "基本使用",
+          "slug": "基本使用"
+        },
+        {
+          "level": 3,
+          "title": "回归曲线",
+          "slug": "回归曲线"
         }
       ],
       "lastUpdated": "3/22/2023, 8:34:00 PM",
@@ -887,6 +1052,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "DL Tags"
+      },
+      "regularPath": "/tag/DL/",
+      "key": "v-e8d99486",
+      "path": "/tag/DL/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "python Tags"
       },
       "regularPath": "/tag/python/",
@@ -896,11 +1070,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "DL Tags"
+        "title": "ML Tags"
       },
-      "regularPath": "/tag/DL/",
-      "key": "v-e8d99486",
-      "path": "/tag/DL/"
+      "regularPath": "/tag/ML/",
+      "key": "v-e8d950f4",
+      "path": "/tag/ML/"
     },
     {
       "frontmatter": {
@@ -914,11 +1088,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "cnn Tags"
+        "title": "node Tags"
       },
-      "regularPath": "/tag/cnn/",
-      "key": "v-323bbe54",
-      "path": "/tag/cnn/"
+      "regularPath": "/tag/node/",
+      "key": "v-14055bfa",
+      "path": "/tag/node/"
     },
     {
       "frontmatter": {
@@ -932,6 +1106,24 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "cnn Tags"
+      },
+      "regularPath": "/tag/cnn/",
+      "key": "v-323bbe54",
+      "path": "/tag/cnn/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "Stm32 Tags"
+      },
+      "regularPath": "/tag/Stm32/",
+      "key": "v-c8383164",
+      "path": "/tag/Stm32/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "learnning reword Tags"
       },
       "regularPath": "/tag/learnning%20reword/",
@@ -941,20 +1133,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "esp32 Tags"
+        "title": "opencv Tags"
       },
-      "regularPath": "/tag/esp32/",
-      "key": "v-8ae32fd0",
-      "path": "/tag/esp32/"
+      "regularPath": "/tag/opencv/",
+      "key": "v-bac21cb0",
+      "path": "/tag/opencv/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "node Tags"
+        "title": "jetson nano Tags"
       },
-      "regularPath": "/tag/node/",
-      "key": "v-14055bfa",
-      "path": "/tag/node/"
+      "regularPath": "/tag/jetson%20nano/",
+      "key": "v-192d793b",
+      "path": "/tag/jetson nano/"
     },
     {
       "frontmatter": {
@@ -977,29 +1169,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "jetson nano Tags"
+        "title": "pytroch Tags"
       },
-      "regularPath": "/tag/jetson%20nano/",
-      "key": "v-192d793b",
-      "path": "/tag/jetson nano/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "opencv Tags"
-      },
-      "regularPath": "/tag/opencv/",
-      "key": "v-bac21cb0",
-      "path": "/tag/opencv/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "c++ Tags"
-      },
-      "regularPath": "/tag/c++/",
-      "key": "v-323dc594",
-      "path": "/tag/c++/"
+      "regularPath": "/tag/pytroch/",
+      "key": "v-0f0ec90c",
+      "path": "/tag/pytroch/"
     },
     {
       "frontmatter": {
@@ -1013,11 +1187,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "pytroch Tags"
+        "title": "c++ Tags"
       },
-      "regularPath": "/tag/pytroch/",
-      "key": "v-0f0ec90c",
-      "path": "/tag/pytroch/"
+      "regularPath": "/tag/c++/",
+      "key": "v-323dc594",
+      "path": "/tag/c++/"
     },
     {
       "frontmatter": {
@@ -1031,20 +1205,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "vue Tags"
-      },
-      "regularPath": "/tag/vue/",
-      "key": "v-322a45da",
-      "path": "/tag/vue/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "vuepress Tags"
       },
       "regularPath": "/tag/vuepress/",
       "key": "v-dfb71430",
       "path": "/tag/vuepress/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "vue Tags"
+      },
+      "regularPath": "/tag/vue/",
+      "key": "v-322a45da",
+      "path": "/tag/vue/"
     },
     {
       "frontmatter": {
@@ -1076,15 +1250,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "c++ Categories"
-      },
-      "regularPath": "/categories/c++/",
-      "key": "v-7f0c55aa",
-      "path": "/categories/c++/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
         "title": "python Categories"
       },
       "regularPath": "/categories/python/",
@@ -1099,6 +1264,15 @@ export const siteData = {
       "regularPath": "/categories/papers/",
       "key": "v-67bbbc6c",
       "path": "/categories/papers/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "c++ Categories"
+      },
+      "regularPath": "/categories/c++/",
+      "key": "v-7f0c55aa",
+      "path": "/categories/c++/"
     },
     {
       "frontmatter": {
@@ -1151,7 +1325,7 @@ export const siteData = {
     "logo": "/logo.png",
     "search": false,
     "searchMaxSuggestions": 10,
-    "lastUpdated": "Last Updated",
+    "lastUpdated": "上次更新时间",
     "author": "zyk",
     "authorAvatar": "/user.png",
     "startYear": "2023"

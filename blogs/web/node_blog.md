@@ -85,7 +85,34 @@ extendMarkdown(md) {
   },
 ```
 
+### vscode配置代码段自动生成bloghead
+1、在设置中打开代码段，创建新的代码段如下
+```json
+	"Print blog meta": {
+		"prefix": "blogMeta",
+		"body": [
+			"---",
+			"title: ${1:$TM_FILENAME_BASE}",
+			"date: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+			"author: ${2:admin}",
+			"tags:",
+			"  - $3",
+			"---",
+			"\r"
+		],
+		"description": "生成博客元信息"
+	}
+```
 
+2、配置markdown的代码段（因默认是不开启的）
+ctl+shift+p 打开搜索setting.json文件添加以下配置项
+```json
+ "[markdown]":{
+        "editor.quickSuggestions": true
+    },
 
+```
+
+3、创建md文件后可以使用blogMate即可生成文件头部
 
 ### 目录分级管理

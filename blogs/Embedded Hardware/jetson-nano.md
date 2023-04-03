@@ -5,7 +5,7 @@ tags:
   - qt
   - ubuntu18
   - jetson nano
-categories: jetson nano
+categories: Embedded Hardware
 ---
 
 
@@ -93,13 +93,13 @@ sudo apt install qttools5-dev-tools
 
 3、按照图片内容添加这两个东西就可以了
 
-![004](./png/qt/004.png)
+![004](./image/qt/004.png)
 
-![006](./png/qt/006.png)
+![006](./image/qt/006.png)
 
 4、可以在顶部分鼠标左击选择qt
 
-![007](./png/qt/007.jpg)
+![007](./image/qt/007.jpg)
 
 参考：
 
